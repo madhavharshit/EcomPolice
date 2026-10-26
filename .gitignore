@@ -1,0 +1,37 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Generated data and reports
+data/interim/*
+data/processed/*
+reports/*
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!reports/.gitkeep
+
+# Local secrets and environment files
+.env
+.env.*
+secrets/
+*.pem
+*.key
+

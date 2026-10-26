@@ -1,0 +1,4 @@
+Shipping_Method,order_count,return_count,not_returned_count,return_rate
+Next-Day,3394,1734,1660,0.5109015910430171
+Standard,3300,1667,1633,0.5051515151515151
+Express,3306,1651,1655,0.49939503932244406

@@ -1,0 +1,501 @@
+Product_ID,Category,Brand,Product_Name,List_Price_INR
+PROD00000,Electronics,Aarika,Aarika Electronics Item 1,89999.0
+PROD00001,Beauty,UrbanKart,UrbanKart Beauty Item 2,4999.0
+PROD00002,Clothing,UrbanKart,UrbanKart Clothing Item 3,3142.33
+PROD00003,Electronics,MetroNest,MetroNest Electronics Item 4,66291.48
+PROD00004,Clothing,Nila,Nila Clothing Item 5,3400.22
+PROD00005,Beauty,Kosha,Kosha Beauty Item 6,1802.93
+PROD00006,Books,UrbanKart,UrbanKart Books Item 7,994.41
+PROD00007,Clothing,Kosha,Kosha Clothing Item 8,1037.03
+PROD00008,Books,MetroNest,MetroNest Books Item 9,1284.03
+PROD00009,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 10,8260.31
+PROD00010,Home & Kitchen,Zentra,Zentra Home & Kitchen Item 11,12947.57
+PROD00011,Home & Kitchen,Nila,Nila Home & Kitchen Item 12,21766.14
+PROD00012,Books,Zentra,Zentra Books Item 13,699.16
+PROD00013,Footwear,BharatBuy,BharatBuy Footwear Item 14,6999.0
+PROD00014,Clothing,Zentra,Zentra Clothing Item 15,1268.02
+PROD00015,Electronics,Aarika,Aarika Electronics Item 16,38402.53
+PROD00016,Electronics,Aarika,Aarika Electronics Item 17,29118.5
+PROD00017,Mobile Accessories,Aarika,Aarika Mobile Accessories Item 18,1952.3
+PROD00018,Books,Zentra,Zentra Books Item 19,1215.67
+PROD00019,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 20,21365.74
+PROD00020,Books,MetroNest,MetroNest Books Item 21,605.26
+PROD00021,Mobile Accessories,TaraTech,TaraTech Mobile Accessories Item 22,2999.0
+PROD00022,Books,UrbanKart,UrbanKart Books Item 23,733.26
+PROD00023,Books,Kosha,Kosha Books Item 24,1678.37
+PROD00024,Footwear,Zentra,Zentra Footwear Item 25,2122.73
+PROD00025,Clothing,TaraTech,TaraTech Clothing Item 26,2674.63
+PROD00026,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 27,6235.94
+PROD00027,Clothing,Kosha,Kosha Clothing Item 28,1782.29
+PROD00028,Clothing,MetroNest,MetroNest Clothing Item 29,2893.33
+PROD00029,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 30,18560.35
+PROD00030,Home & Kitchen,Zentra,Zentra Home & Kitchen Item 31,5755.23
+PROD00031,Home & Kitchen,Zentra,Zentra Home & Kitchen Item 32,7712.71
+PROD00032,Electronics,MetroNest,MetroNest Electronics Item 33,74681.85
+PROD00033,Beauty,UrbanKart,UrbanKart Beauty Item 34,3759.71
+PROD00034,Books,Nila,Nila Books Item 35,1144.92
+PROD00035,Footwear,Kosha,Kosha Footwear Item 36,4530.87
+PROD00036,Electronics,Kosha,Kosha Electronics Item 37,44872.26
+PROD00037,Beauty,BharatBuy,BharatBuy Beauty Item 38,3025.31
+PROD00038,Sports,MetroNest,MetroNest Sports Item 39,14999.0
+PROD00039,Books,TaraTech,TaraTech Books Item 40,1999.0
+PROD00040,Home & Kitchen,Nila,Nila Home & Kitchen Item 41,11418.18
+PROD00041,Clothing,Zentra,Zentra Clothing Item 42,1657.6
+PROD00042,Home & Kitchen,MetroNest,MetroNest Home & Kitchen Item 43,7499.78
+PROD00043,Mobile Accessories,BharatBuy,BharatBuy Mobile Accessories Item 44,2999.0
+PROD00044,Footwear,MetroNest,MetroNest Footwear Item 45,6999.0
+PROD00045,Sports,MetroNest,MetroNest Sports Item 46,5756.59
+PROD00046,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 47,1247.57
+PROD00047,Mobile Accessories,MetroNest,MetroNest Mobile Accessories Item 48,1289.85
+PROD00048,Footwear,BharatBuy,BharatBuy Footwear Item 49,6329.06
+PROD00049,Beauty,BharatBuy,BharatBuy Beauty Item 50,1310.65
+PROD00050,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 51,2167.5
+PROD00051,Clothing,BharatBuy,BharatBuy Clothing Item 52,4109.13
+PROD00052,Beauty,Nila,Nila Beauty Item 53,1796.58
+PROD00053,Mobile Accessories,Kosha,Kosha Mobile Accessories Item 54,1243.97
+PROD00054,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 55,972.59
+PROD00055,Beauty,BharatBuy,BharatBuy Beauty Item 56,2133.18
+PROD00056,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 57,1757.11
+PROD00057,Mobile Accessories,Aarika,Aarika Mobile Accessories Item 58,1194.96
+PROD00058,Clothing,Nila,Nila Clothing Item 59,1778.55
+PROD00059,Electronics,MetroNest,MetroNest Electronics Item 60,73082.23
+PROD00060,Clothing,BharatBuy,BharatBuy Clothing Item 61,4999.0
+PROD00061,Footwear,Kosha,Kosha Footwear Item 62,6999.0
+PROD00062,Beauty,MetroNest,MetroNest Beauty Item 63,3154.41
+PROD00063,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 64,11896.0
+PROD00064,Clothing,UrbanKart,UrbanKart Clothing Item 65,933.2
+PROD00065,Footwear,TaraTech,TaraTech Footwear Item 66,2310.77
+PROD00066,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 67,6582.98
+PROD00067,Electronics,Zentra,Zentra Electronics Item 68,39253.45
+PROD00068,Electronics,Kosha,Kosha Electronics Item 69,27509.37
+PROD00069,Books,Aarika,Aarika Books Item 70,1180.18
+PROD00070,Clothing,BharatBuy,BharatBuy Clothing Item 71,2021.41
+PROD00071,Mobile Accessories,BharatBuy,BharatBuy Mobile Accessories Item 72,2145.87
+PROD00072,Beauty,UrbanKart,UrbanKart Beauty Item 73,3064.24
+PROD00073,Mobile Accessories,MetroNest,MetroNest Mobile Accessories Item 74,1220.88
+PROD00074,Beauty,MetroNest,MetroNest Beauty Item 75,1409.1
+PROD00075,Clothing,BharatBuy,BharatBuy Clothing Item 76,1944.65
+PROD00076,Electronics,TaraTech,TaraTech Electronics Item 77,35606.08
+PROD00077,Beauty,TaraTech,TaraTech Beauty Item 78,1432.87
+PROD00078,Clothing,Nila,Nila Clothing Item 79,2528.72
+PROD00079,Clothing,TaraTech,TaraTech Clothing Item 80,4999.0
+PROD00080,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 81,9703.22
+PROD00081,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 82,10588.84
+PROD00082,Books,Zentra,Zentra Books Item 83,696.57
+PROD00083,Beauty,Kosha,Kosha Beauty Item 84,1239.42
+PROD00084,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 85,11254.81
+PROD00085,Mobile Accessories,UrbanKart,UrbanKart Mobile Accessories Item 86,1395.8
+PROD00086,Beauty,Zentra,Zentra Beauty Item 87,2545.64
+PROD00087,Footwear,TaraTech,TaraTech Footwear Item 88,4152.61
+PROD00088,Home & Kitchen,Nila,Nila Home & Kitchen Item 89,12593.28
+PROD00089,Electronics,TaraTech,TaraTech Electronics Item 90,73812.39
+PROD00090,Beauty,UrbanKart,UrbanKart Beauty Item 91,2609.65
+PROD00091,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 92,12042.24
+PROD00092,Footwear,MetroNest,MetroNest Footwear Item 93,3655.11
+PROD00093,Sports,Aarika,Aarika Sports Item 94,11102.93
+PROD00094,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 95,9640.23
+PROD00095,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 96,18368.69
+PROD00096,Clothing,Nila,Nila Clothing Item 97,1733.14
+PROD00097,Sports,MetroNest,MetroNest Sports Item 98,5437.48
+PROD00098,Footwear,Zentra,Zentra Footwear Item 99,5206.05
+PROD00099,Beauty,Aarika,Aarika Beauty Item 100,2149.65
+PROD00100,Books,Zentra,Zentra Books Item 101,1999.0
+PROD00101,Clothing,BharatBuy,BharatBuy Clothing Item 102,1181.76
+PROD00102,Footwear,Kosha,Kosha Footwear Item 103,2848.09
+PROD00103,Electronics,BharatBuy,BharatBuy Electronics Item 104,55541.86
+PROD00104,Mobile Accessories,Nila,Nila Mobile Accessories Item 105,1666.7
+PROD00105,Clothing,BharatBuy,BharatBuy Clothing Item 106,1393.5
+PROD00106,Clothing,BharatBuy,BharatBuy Clothing Item 107,3107.07
+PROD00107,Electronics,Aarika,Aarika Electronics Item 108,47323.33
+PROD00108,Clothing,MetroNest,MetroNest Clothing Item 109,1607.91
+PROD00109,Books,TaraTech,TaraTech Books Item 110,690.2
+PROD00110,Beauty,TaraTech,TaraTech Beauty Item 111,4999.0
+PROD00111,Beauty,MetroNest,MetroNest Beauty Item 112,3913.23
+PROD00112,Sports,UrbanKart,UrbanKart Sports Item 113,5357.6
+PROD00113,Clothing,BharatBuy,BharatBuy Clothing Item 114,3133.05
+PROD00114,Clothing,Nila,Nila Clothing Item 115,2196.01
+PROD00115,Beauty,Nila,Nila Beauty Item 116,4633.0
+PROD00116,Beauty,Aarika,Aarika Beauty Item 117,2292.22
+PROD00117,Footwear,MetroNest,MetroNest Footwear Item 118,6999.0
+PROD00118,Footwear,BharatBuy,BharatBuy Footwear Item 119,1716.86
+PROD00119,Clothing,MetroNest,MetroNest Clothing Item 120,3625.87
+PROD00120,Beauty,BharatBuy,BharatBuy Beauty Item 121,4999.0
+PROD00121,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 122,11757.58
+PROD00122,Books,Aarika,Aarika Books Item 123,960.82
+PROD00123,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 124,8480.5
+PROD00124,Electronics,UrbanKart,UrbanKart Electronics Item 125,22830.15
+PROD00125,Mobile Accessories,Nila,Nila Mobile Accessories Item 126,1712.32
+PROD00126,Mobile Accessories,MetroNest,MetroNest Mobile Accessories Item 127,912.68
+PROD00127,Home & Kitchen,Zentra,Zentra Home & Kitchen Item 128,9855.76
+PROD00128,Clothing,Kosha,Kosha Clothing Item 129,3680.16
+PROD00129,Footwear,UrbanKart,UrbanKart Footwear Item 130,2933.6
+PROD00130,Mobile Accessories,Nila,Nila Mobile Accessories Item 131,1468.43
+PROD00131,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 132,12371.1
+PROD00132,Mobile Accessories,MetroNest,MetroNest Mobile Accessories Item 133,906.56
+PROD00133,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 134,8617.28
+PROD00134,Books,Aarika,Aarika Books Item 135,581.2
+PROD00135,Sports,BharatBuy,BharatBuy Sports Item 136,6246.88
+PROD00136,Clothing,TaraTech,TaraTech Clothing Item 137,2437.98
+PROD00137,Electronics,MetroNest,MetroNest Electronics Item 138,58904.51
+PROD00138,Mobile Accessories,Aarika,Aarika Mobile Accessories Item 139,1341.52
+PROD00139,Mobile Accessories,BharatBuy,BharatBuy Mobile Accessories Item 140,1835.48
+PROD00140,Beauty,Kosha,Kosha Beauty Item 141,3801.91
+PROD00141,Clothing,Nila,Nila Clothing Item 142,4477.43
+PROD00142,Home & Kitchen,MetroNest,MetroNest Home & Kitchen Item 143,9578.71
+PROD00143,Mobile Accessories,Kosha,Kosha Mobile Accessories Item 144,1152.08
+PROD00144,Books,BharatBuy,BharatBuy Books Item 145,1678.85
+PROD00145,Beauty,MetroNest,MetroNest Beauty Item 146,3621.48
+PROD00146,Footwear,Aarika,Aarika Footwear Item 147,4527.47
+PROD00147,Clothing,MetroNest,MetroNest Clothing Item 148,1728.99
+PROD00148,Electronics,UrbanKart,UrbanKart Electronics Item 149,71375.9
+PROD00149,Sports,UrbanKart,UrbanKart Sports Item 150,9324.31
+PROD00150,Electronics,Kosha,Kosha Electronics Item 151,89999.0
+PROD00151,Footwear,UrbanKart,UrbanKart Footwear Item 152,4503.74
+PROD00152,Books,Zentra,Zentra Books Item 153,557.58
+PROD00153,Footwear,TaraTech,TaraTech Footwear Item 154,6170.03
+PROD00154,Home & Kitchen,Zentra,Zentra Home & Kitchen Item 155,4766.0
+PROD00155,Footwear,Nila,Nila Footwear Item 156,5913.35
+PROD00156,Mobile Accessories,UrbanKart,UrbanKart Mobile Accessories Item 157,2999.0
+PROD00157,Books,MetroNest,MetroNest Books Item 158,1000.28
+PROD00158,Sports,TaraTech,TaraTech Sports Item 159,6940.63
+PROD00159,Electronics,UrbanKart,UrbanKart Electronics Item 160,35950.65
+PROD00160,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 161,10604.32
+PROD00161,Footwear,MetroNest,MetroNest Footwear Item 162,2639.14
+PROD00162,Electronics,Aarika,Aarika Electronics Item 163,35603.45
+PROD00163,Home & Kitchen,MetroNest,MetroNest Home & Kitchen Item 164,17357.07
+PROD00164,Beauty,UrbanKart,UrbanKart Beauty Item 165,4902.74
+PROD00165,Electronics,BharatBuy,BharatBuy Electronics Item 166,25375.12
+PROD00166,Electronics,MetroNest,MetroNest Electronics Item 167,47609.89
+PROD00167,Footwear,Zentra,Zentra Footwear Item 168,2902.42
+PROD00168,Clothing,Kosha,Kosha Clothing Item 169,2899.34
+PROD00169,Books,Nila,Nila Books Item 170,714.07
+PROD00170,Clothing,BharatBuy,BharatBuy Clothing Item 171,2946.61
+PROD00171,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 172,20087.59
+PROD00172,Beauty,Aarika,Aarika Beauty Item 173,1594.57
+PROD00173,Electronics,Nila,Nila Electronics Item 174,49086.1
+PROD00174,Sports,Kosha,Kosha Sports Item 175,13589.51
+PROD00175,Sports,UrbanKart,UrbanKart Sports Item 176,12278.5
+PROD00176,Footwear,MetroNest,MetroNest Footwear Item 177,3095.55
+PROD00177,Mobile Accessories,UrbanKart,UrbanKart Mobile Accessories Item 178,855.61
+PROD00178,Sports,UrbanKart,UrbanKart Sports Item 179,8160.24
+PROD00179,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 180,12535.66
+PROD00180,Footwear,Zentra,Zentra Footwear Item 181,1876.07
+PROD00181,Electronics,Kosha,Kosha Electronics Item 182,17502.44
+PROD00182,Mobile Accessories,BharatBuy,BharatBuy Mobile Accessories Item 183,1224.81
+PROD00183,Beauty,TaraTech,TaraTech Beauty Item 184,3349.85
+PROD00184,Beauty,TaraTech,TaraTech Beauty Item 185,1807.22
+PROD00185,Clothing,MetroNest,MetroNest Clothing Item 186,2638.5
+PROD00186,Footwear,TaraTech,TaraTech Footwear Item 187,2185.69
+PROD00187,Home & Kitchen,Nila,Nila Home & Kitchen Item 188,12247.17
+PROD00188,Mobile Accessories,BharatBuy,BharatBuy Mobile Accessories Item 189,1288.69
+PROD00189,Beauty,UrbanKart,UrbanKart Beauty Item 190,4999.0
+PROD00190,Electronics,UrbanKart,UrbanKart Electronics Item 191,89999.0
+PROD00191,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 192,12567.13
+PROD00192,Clothing,UrbanKart,UrbanKart Clothing Item 193,3700.26
+PROD00193,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 194,22229.45
+PROD00194,Books,Zentra,Zentra Books Item 195,523.63
+PROD00195,Books,Aarika,Aarika Books Item 196,1245.32
+PROD00196,Footwear,Aarika,Aarika Footwear Item 197,4549.94
+PROD00197,Electronics,Zentra,Zentra Electronics Item 198,22695.94
+PROD00198,Clothing,UrbanKart,UrbanKart Clothing Item 199,4999.0
+PROD00199,Electronics,MetroNest,MetroNest Electronics Item 200,31596.94
+PROD00200,Clothing,Nila,Nila Clothing Item 201,3249.4
+PROD00201,Home & Kitchen,MetroNest,MetroNest Home & Kitchen Item 202,20429.89
+PROD00202,Electronics,Kosha,Kosha Electronics Item 203,28415.79
+PROD00203,Sports,TaraTech,TaraTech Sports Item 204,14999.0
+PROD00204,Footwear,BharatBuy,BharatBuy Footwear Item 205,2672.89
+PROD00205,Footwear,TaraTech,TaraTech Footwear Item 206,3768.77
+PROD00206,Clothing,Zentra,Zentra Clothing Item 207,4859.0
+PROD00207,Clothing,Nila,Nila Clothing Item 208,2575.38
+PROD00208,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 209,17613.5
+PROD00209,Mobile Accessories,Kosha,Kosha Mobile Accessories Item 210,1849.39
+PROD00210,Sports,Aarika,Aarika Sports Item 211,10044.46
+PROD00211,Sports,Aarika,Aarika Sports Item 212,8580.48
+PROD00212,Clothing,Zentra,Zentra Clothing Item 213,2999.02
+PROD00213,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 214,7899.57
+PROD00214,Electronics,TaraTech,TaraTech Electronics Item 215,47491.52
+PROD00215,Mobile Accessories,BharatBuy,BharatBuy Mobile Accessories Item 216,1003.01
+PROD00216,Footwear,MetroNest,MetroNest Footwear Item 217,5085.12
+PROD00217,Beauty,UrbanKart,UrbanKart Beauty Item 218,1661.98
+PROD00218,Home & Kitchen,Nila,Nila Home & Kitchen Item 219,12391.88
+PROD00219,Home & Kitchen,TaraTech,TaraTech Home & Kitchen Item 220,9740.53
+PROD00220,Mobile Accessories,UrbanKart,UrbanKart Mobile Accessories Item 221,538.85
+PROD00221,Clothing,BharatBuy,BharatBuy Clothing Item 222,4614.65
+PROD00222,Clothing,Aarika,Aarika Clothing Item 223,3291.27
+PROD00223,Sports,TaraTech,TaraTech Sports Item 224,13883.07
+PROD00224,Books,Kosha,Kosha Books Item 225,1936.78
+PROD00225,Electronics,TaraTech,TaraTech Electronics Item 226,46147.47
+PROD00226,Footwear,MetroNest,MetroNest Footwear Item 227,6999.0
+PROD00227,Beauty,UrbanKart,UrbanKart Beauty Item 228,2634.71
+PROD00228,Electronics,BharatBuy,BharatBuy Electronics Item 229,62303.92
+PROD00229,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 230,23437.32
+PROD00230,Clothing,Nila,Nila Clothing Item 231,4999.0
+PROD00231,Clothing,Zentra,Zentra Clothing Item 232,4179.6
+PROD00232,Home & Kitchen,TaraTech,TaraTech Home & Kitchen Item 233,6994.78
+PROD00233,Clothing,UrbanKart,UrbanKart Clothing Item 234,2448.95
+PROD00234,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 235,1549.68
+PROD00235,Mobile Accessories,TaraTech,TaraTech Mobile Accessories Item 236,1412.85
+PROD00236,Clothing,Zentra,Zentra Clothing Item 237,2115.19
+PROD00237,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 238,14869.66
+PROD00238,Footwear,Kosha,Kosha Footwear Item 239,1975.77
+PROD00239,Clothing,Zentra,Zentra Clothing Item 240,1829.25
+PROD00240,Electronics,Kosha,Kosha Electronics Item 241,89999.0
+PROD00241,Footwear,TaraTech,TaraTech Footwear Item 242,2561.08
+PROD00242,Clothing,BharatBuy,BharatBuy Clothing Item 243,2303.38
+PROD00243,Clothing,TaraTech,TaraTech Clothing Item 244,4999.0
+PROD00244,Beauty,Kosha,Kosha Beauty Item 245,1517.73
+PROD00245,Footwear,BharatBuy,BharatBuy Footwear Item 246,4162.39
+PROD00246,Books,UrbanKart,UrbanKart Books Item 247,1388.17
+PROD00247,Beauty,UrbanKart,UrbanKart Beauty Item 248,3284.66
+PROD00248,Mobile Accessories,Kosha,Kosha Mobile Accessories Item 249,2999.0
+PROD00249,Beauty,TaraTech,TaraTech Beauty Item 250,1834.66
+PROD00250,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 251,14141.14
+PROD00251,Books,BharatBuy,BharatBuy Books Item 252,1066.68
+PROD00252,Sports,Aarika,Aarika Sports Item 253,10674.75
+PROD00253,Electronics,BharatBuy,BharatBuy Electronics Item 254,43492.6
+PROD00254,Clothing,Nila,Nila Clothing Item 255,2092.44
+PROD00255,Clothing,UrbanKart,UrbanKart Clothing Item 256,3348.71
+PROD00256,Clothing,UrbanKart,UrbanKart Clothing Item 257,2688.14
+PROD00257,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 258,10471.78
+PROD00258,Home & Kitchen,TaraTech,TaraTech Home & Kitchen Item 259,12144.54
+PROD00259,Electronics,Kosha,Kosha Electronics Item 260,62971.82
+PROD00260,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 261,4362.69
+PROD00261,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 262,11215.28
+PROD00262,Sports,UrbanKart,UrbanKart Sports Item 263,5863.68
+PROD00263,Home & Kitchen,MetroNest,MetroNest Home & Kitchen Item 264,10142.44
+PROD00264,Beauty,TaraTech,TaraTech Beauty Item 265,4356.01
+PROD00265,Footwear,MetroNest,MetroNest Footwear Item 266,6452.98
+PROD00266,Books,Kosha,Kosha Books Item 267,880.85
+PROD00267,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 268,1243.33
+PROD00268,Clothing,Nila,Nila Clothing Item 269,1750.43
+PROD00269,Beauty,Aarika,Aarika Beauty Item 270,4319.79
+PROD00270,Home & Kitchen,TaraTech,TaraTech Home & Kitchen Item 271,17100.8
+PROD00271,Beauty,Aarika,Aarika Beauty Item 272,2540.1
+PROD00272,Footwear,Kosha,Kosha Footwear Item 273,2432.48
+PROD00273,Footwear,UrbanKart,UrbanKart Footwear Item 274,2760.99
+PROD00274,Clothing,Zentra,Zentra Clothing Item 275,3195.35
+PROD00275,Beauty,Nila,Nila Beauty Item 276,2706.22
+PROD00276,Beauty,TaraTech,TaraTech Beauty Item 277,2880.57
+PROD00277,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 278,4805.07
+PROD00278,Sports,Kosha,Kosha Sports Item 279,9843.36
+PROD00279,Books,UrbanKart,UrbanKart Books Item 280,1027.1
+PROD00280,Clothing,Aarika,Aarika Clothing Item 281,4532.34
+PROD00281,Electronics,MetroNest,MetroNest Electronics Item 282,47362.92
+PROD00282,Sports,Zentra,Zentra Sports Item 283,8646.29
+PROD00283,Home & Kitchen,Nila,Nila Home & Kitchen Item 284,24999.0
+PROD00284,Electronics,Aarika,Aarika Electronics Item 285,19156.36
+PROD00285,Mobile Accessories,Kosha,Kosha Mobile Accessories Item 286,965.91
+PROD00286,Books,BharatBuy,BharatBuy Books Item 287,884.1
+PROD00287,Beauty,Kosha,Kosha Beauty Item 288,1701.8
+PROD00288,Footwear,TaraTech,TaraTech Footwear Item 289,2512.29
+PROD00289,Sports,Zentra,Zentra Sports Item 290,14999.0
+PROD00290,Electronics,Aarika,Aarika Electronics Item 291,44020.2
+PROD00291,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 292,8981.5
+PROD00292,Beauty,MetroNest,MetroNest Beauty Item 293,4999.0
+PROD00293,Clothing,MetroNest,MetroNest Clothing Item 294,1597.11
+PROD00294,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 295,1405.05
+PROD00295,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 296,8916.05
+PROD00296,Clothing,Aarika,Aarika Clothing Item 297,1998.37
+PROD00297,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 298,1411.88
+PROD00298,Beauty,Kosha,Kosha Beauty Item 299,3569.1
+PROD00299,Footwear,UrbanKart,UrbanKart Footwear Item 300,6999.0
+PROD00300,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 301,10607.53
+PROD00301,Sports,UrbanKart,UrbanKart Sports Item 302,8056.71
+PROD00302,Mobile Accessories,MetroNest,MetroNest Mobile Accessories Item 303,1657.58
+PROD00303,Clothing,UrbanKart,UrbanKart Clothing Item 304,4639.19
+PROD00304,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 305,1999.65
+PROD00305,Clothing,MetroNest,MetroNest Clothing Item 306,3682.27
+PROD00306,Clothing,UrbanKart,UrbanKart Clothing Item 307,4269.29
+PROD00307,Clothing,Kosha,Kosha Clothing Item 308,4999.0
+PROD00308,Home & Kitchen,TaraTech,TaraTech Home & Kitchen Item 309,11795.63
+PROD00309,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 310,5168.75
+PROD00310,Footwear,Zentra,Zentra Footwear Item 311,2362.62
+PROD00311,Sports,Aarika,Aarika Sports Item 312,12364.53
+PROD00312,Mobile Accessories,Aarika,Aarika Mobile Accessories Item 313,1105.38
+PROD00313,Books,Zentra,Zentra Books Item 314,765.3
+PROD00314,Footwear,Kosha,Kosha Footwear Item 315,4050.31
+PROD00315,Clothing,Zentra,Zentra Clothing Item 316,1727.79
+PROD00316,Clothing,Zentra,Zentra Clothing Item 317,3440.25
+PROD00317,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 318,1364.15
+PROD00318,Sports,Kosha,Kosha Sports Item 319,14999.0
+PROD00319,Books,Kosha,Kosha Books Item 320,1245.25
+PROD00320,Clothing,MetroNest,MetroNest Clothing Item 321,1917.89
+PROD00321,Home & Kitchen,Zentra,Zentra Home & Kitchen Item 322,7016.83
+PROD00322,Sports,Nila,Nila Sports Item 323,5905.76
+PROD00323,Mobile Accessories,Kosha,Kosha Mobile Accessories Item 324,1822.15
+PROD00324,Clothing,BharatBuy,BharatBuy Clothing Item 325,3728.7
+PROD00325,Electronics,Kosha,Kosha Electronics Item 326,42863.47
+PROD00326,Home & Kitchen,Nila,Nila Home & Kitchen Item 327,6754.26
+PROD00327,Electronics,TaraTech,TaraTech Electronics Item 328,45820.57
+PROD00328,Home & Kitchen,TaraTech,TaraTech Home & Kitchen Item 329,9265.09
+PROD00329,Electronics,Kosha,Kosha Electronics Item 330,30093.83
+PROD00330,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 331,14144.57
+PROD00331,Clothing,Zentra,Zentra Clothing Item 332,2652.38
+PROD00332,Sports,MetroNest,MetroNest Sports Item 333,11356.36
+PROD00333,Home & Kitchen,TaraTech,TaraTech Home & Kitchen Item 334,15529.78
+PROD00334,Clothing,Aarika,Aarika Clothing Item 335,2038.53
+PROD00335,Electronics,UrbanKart,UrbanKart Electronics Item 336,57225.2
+PROD00336,Sports,Zentra,Zentra Sports Item 337,4440.98
+PROD00337,Footwear,UrbanKart,UrbanKart Footwear Item 338,2135.72
+PROD00338,Electronics,UrbanKart,UrbanKart Electronics Item 339,89999.0
+PROD00339,Beauty,MetroNest,MetroNest Beauty Item 340,1612.52
+PROD00340,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 341,7278.25
+PROD00341,Books,UrbanKart,UrbanKart Books Item 342,1246.81
+PROD00342,Sports,BharatBuy,BharatBuy Sports Item 343,8175.47
+PROD00343,Mobile Accessories,Aarika,Aarika Mobile Accessories Item 344,2226.22
+PROD00344,Electronics,UrbanKart,UrbanKart Electronics Item 345,65514.61
+PROD00345,Sports,BharatBuy,BharatBuy Sports Item 346,14902.16
+PROD00346,Home & Kitchen,Zentra,Zentra Home & Kitchen Item 347,9942.76
+PROD00347,Books,Zentra,Zentra Books Item 348,636.21
+PROD00348,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 349,16021.84
+PROD00349,Electronics,Aarika,Aarika Electronics Item 350,40623.24
+PROD00350,Books,UrbanKart,UrbanKart Books Item 351,1687.46
+PROD00351,Sports,TaraTech,TaraTech Sports Item 352,11670.64
+PROD00352,Sports,MetroNest,MetroNest Sports Item 353,14999.0
+PROD00353,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 354,8392.37
+PROD00354,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 355,10894.68
+PROD00355,Clothing,Kosha,Kosha Clothing Item 356,4615.23
+PROD00356,Clothing,Aarika,Aarika Clothing Item 357,1294.66
+PROD00357,Electronics,BharatBuy,BharatBuy Electronics Item 358,26680.18
+PROD00358,Sports,Nila,Nila Sports Item 359,5429.82
+PROD00359,Mobile Accessories,Aarika,Aarika Mobile Accessories Item 360,1234.92
+PROD00360,Electronics,Kosha,Kosha Electronics Item 361,74183.0
+PROD00361,Home & Kitchen,MetroNest,MetroNest Home & Kitchen Item 362,14000.21
+PROD00362,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 363,15707.53
+PROD00363,Beauty,Aarika,Aarika Beauty Item 364,1089.57
+PROD00364,Clothing,UrbanKart,UrbanKart Clothing Item 365,3144.07
+PROD00365,Beauty,Aarika,Aarika Beauty Item 366,1420.47
+PROD00366,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 367,8997.63
+PROD00367,Books,Kosha,Kosha Books Item 368,1289.66
+PROD00368,Electronics,BharatBuy,BharatBuy Electronics Item 369,31142.65
+PROD00369,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 370,761.1
+PROD00370,Sports,Zentra,Zentra Sports Item 371,5766.59
+PROD00371,Books,Aarika,Aarika Books Item 372,1400.89
+PROD00372,Beauty,Zentra,Zentra Beauty Item 373,2889.68
+PROD00373,Home & Kitchen,Nila,Nila Home & Kitchen Item 374,12703.24
+PROD00374,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 375,7964.4
+PROD00375,Clothing,BharatBuy,BharatBuy Clothing Item 376,2996.38
+PROD00376,Footwear,BharatBuy,BharatBuy Footwear Item 377,3873.49
+PROD00377,Clothing,TaraTech,TaraTech Clothing Item 378,2036.99
+PROD00378,Footwear,BharatBuy,BharatBuy Footwear Item 379,4925.8
+PROD00379,Home & Kitchen,MetroNest,MetroNest Home & Kitchen Item 380,10360.54
+PROD00380,Footwear,Zentra,Zentra Footwear Item 381,6999.0
+PROD00381,Sports,TaraTech,TaraTech Sports Item 382,14999.0
+PROD00382,Beauty,Kosha,Kosha Beauty Item 383,2196.77
+PROD00383,Clothing,BharatBuy,BharatBuy Clothing Item 384,1964.58
+PROD00384,Footwear,Aarika,Aarika Footwear Item 385,2900.55
+PROD00385,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 386,1111.34
+PROD00386,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 387,6605.36
+PROD00387,Clothing,MetroNest,MetroNest Clothing Item 388,1586.71
+PROD00388,Clothing,BharatBuy,BharatBuy Clothing Item 389,4342.8
+PROD00389,Clothing,Zentra,Zentra Clothing Item 390,2545.73
+PROD00390,Clothing,BharatBuy,BharatBuy Clothing Item 391,3853.16
+PROD00391,Clothing,TaraTech,TaraTech Clothing Item 392,4707.03
+PROD00392,Footwear,UrbanKart,UrbanKart Footwear Item 393,2742.83
+PROD00393,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 394,10240.46
+PROD00394,Mobile Accessories,MetroNest,MetroNest Mobile Accessories Item 395,983.25
+PROD00395,Beauty,UrbanKart,UrbanKart Beauty Item 396,1861.83
+PROD00396,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 397,24999.0
+PROD00397,Clothing,BharatBuy,BharatBuy Clothing Item 398,4999.0
+PROD00398,Sports,Nila,Nila Sports Item 399,5613.14
+PROD00399,Mobile Accessories,BharatBuy,BharatBuy Mobile Accessories Item 400,2500.74
+PROD00400,Electronics,TaraTech,TaraTech Electronics Item 401,63104.94
+PROD00401,Footwear,Zentra,Zentra Footwear Item 402,4174.25
+PROD00402,Footwear,Kosha,Kosha Footwear Item 403,3840.09
+PROD00403,Home & Kitchen,Zentra,Zentra Home & Kitchen Item 404,24506.94
+PROD00404,Footwear,UrbanKart,UrbanKart Footwear Item 405,6999.0
+PROD00405,Home & Kitchen,MetroNest,MetroNest Home & Kitchen Item 406,5970.06
+PROD00406,Sports,BharatBuy,BharatBuy Sports Item 407,6213.61
+PROD00407,Home & Kitchen,MetroNest,MetroNest Home & Kitchen Item 408,9581.61
+PROD00408,Books,Kosha,Kosha Books Item 409,578.46
+PROD00409,Footwear,UrbanKart,UrbanKart Footwear Item 410,6999.0
+PROD00410,Footwear,Zentra,Zentra Footwear Item 411,5446.43
+PROD00411,Clothing,TaraTech,TaraTech Clothing Item 412,1821.7
+PROD00412,Mobile Accessories,Aarika,Aarika Mobile Accessories Item 413,2370.97
+PROD00413,Beauty,UrbanKart,UrbanKart Beauty Item 414,2709.77
+PROD00414,Mobile Accessories,BharatBuy,BharatBuy Mobile Accessories Item 415,929.88
+PROD00415,Beauty,MetroNest,MetroNest Beauty Item 416,3825.48
+PROD00416,Mobile Accessories,TaraTech,TaraTech Mobile Accessories Item 417,2076.88
+PROD00417,Electronics,Zentra,Zentra Electronics Item 418,66920.64
+PROD00418,Books,TaraTech,TaraTech Books Item 419,1999.0
+PROD00419,Electronics,Kosha,Kosha Electronics Item 420,46238.01
+PROD00420,Footwear,Nila,Nila Footwear Item 421,2176.7
+PROD00421,Electronics,UrbanKart,UrbanKart Electronics Item 422,65743.8
+PROD00422,Clothing,UrbanKart,UrbanKart Clothing Item 423,4079.13
+PROD00423,Clothing,UrbanKart,UrbanKart Clothing Item 424,3199.99
+PROD00424,Electronics,BharatBuy,BharatBuy Electronics Item 425,27008.82
+PROD00425,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 426,8088.5
+PROD00426,Clothing,UrbanKart,UrbanKart Clothing Item 427,4742.99
+PROD00427,Clothing,Aarika,Aarika Clothing Item 428,1790.9
+PROD00428,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 429,9331.31
+PROD00429,Beauty,Kosha,Kosha Beauty Item 430,1853.47
+PROD00430,Electronics,BharatBuy,BharatBuy Electronics Item 431,48933.54
+PROD00431,Footwear,Zentra,Zentra Footwear Item 432,3746.63
+PROD00432,Sports,MetroNest,MetroNest Sports Item 433,6563.04
+PROD00433,Sports,Aarika,Aarika Sports Item 434,10353.52
+PROD00434,Electronics,TaraTech,TaraTech Electronics Item 435,57205.63
+PROD00435,Sports,Nila,Nila Sports Item 436,3498.79
+PROD00436,Mobile Accessories,Aarika,Aarika Mobile Accessories Item 437,2740.7
+PROD00437,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 438,12938.9
+PROD00438,Clothing,TaraTech,TaraTech Clothing Item 439,3899.01
+PROD00439,Books,Kosha,Kosha Books Item 440,1591.38
+PROD00440,Mobile Accessories,Nila,Nila Mobile Accessories Item 441,1990.97
+PROD00441,Clothing,MetroNest,MetroNest Clothing Item 442,2133.23
+PROD00442,Footwear,Kosha,Kosha Footwear Item 443,1782.95
+PROD00443,Beauty,MetroNest,MetroNest Beauty Item 444,2672.38
+PROD00444,Sports,Kosha,Kosha Sports Item 445,8324.72
+PROD00445,Home & Kitchen,BharatBuy,BharatBuy Home & Kitchen Item 446,18769.99
+PROD00446,Books,Zentra,Zentra Books Item 447,862.98
+PROD00447,Mobile Accessories,Nila,Nila Mobile Accessories Item 448,1239.63
+PROD00448,Books,Zentra,Zentra Books Item 449,921.77
+PROD00449,Electronics,BharatBuy,BharatBuy Electronics Item 450,89999.0
+PROD00450,Books,UrbanKart,UrbanKart Books Item 451,1999.0
+PROD00451,Sports,BharatBuy,BharatBuy Sports Item 452,6142.54
+PROD00452,Electronics,Kosha,Kosha Electronics Item 453,34983.4
+PROD00453,Home & Kitchen,MetroNest,MetroNest Home & Kitchen Item 454,7209.84
+PROD00454,Clothing,TaraTech,TaraTech Clothing Item 455,1816.17
+PROD00455,Clothing,BharatBuy,BharatBuy Clothing Item 456,3424.69
+PROD00456,Clothing,TaraTech,TaraTech Clothing Item 457,2707.93
+PROD00457,Mobile Accessories,Nila,Nila Mobile Accessories Item 458,1049.56
+PROD00458,Footwear,UrbanKart,UrbanKart Footwear Item 459,3500.35
+PROD00459,Sports,MetroNest,MetroNest Sports Item 460,9103.55
+PROD00460,Footwear,MetroNest,MetroNest Footwear Item 461,1203.29
+PROD00461,Clothing,BharatBuy,BharatBuy Clothing Item 462,1831.6
+PROD00462,Home & Kitchen,TaraTech,TaraTech Home & Kitchen Item 463,8625.29
+PROD00463,Sports,UrbanKart,UrbanKart Sports Item 464,9105.51
+PROD00464,Clothing,UrbanKart,UrbanKart Clothing Item 465,3405.01
+PROD00465,Sports,Aarika,Aarika Sports Item 466,4836.0
+PROD00466,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 467,19794.4
+PROD00467,Sports,UrbanKart,UrbanKart Sports Item 468,9710.99
+PROD00468,Beauty,Kosha,Kosha Beauty Item 469,1562.21
+PROD00469,Clothing,Aarika,Aarika Clothing Item 470,2978.42
+PROD00470,Home & Kitchen,Kosha,Kosha Home & Kitchen Item 471,8353.97
+PROD00471,Clothing,MetroNest,MetroNest Clothing Item 472,1884.16
+PROD00472,Clothing,BharatBuy,BharatBuy Clothing Item 473,1170.39
+PROD00473,Mobile Accessories,Kosha,Kosha Mobile Accessories Item 474,990.49
+PROD00474,Mobile Accessories,MetroNest,MetroNest Mobile Accessories Item 475,1532.49
+PROD00475,Footwear,BharatBuy,BharatBuy Footwear Item 476,2437.76
+PROD00476,Mobile Accessories,TaraTech,TaraTech Mobile Accessories Item 477,1901.04
+PROD00477,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 478,1265.5
+PROD00478,Sports,Zentra,Zentra Sports Item 479,4323.15
+PROD00479,Clothing,Zentra,Zentra Clothing Item 480,1193.24
+PROD00480,Mobile Accessories,Nila,Nila Mobile Accessories Item 481,915.02
+PROD00481,Home & Kitchen,Aarika,Aarika Home & Kitchen Item 482,15579.54
+PROD00482,Home & Kitchen,TaraTech,TaraTech Home & Kitchen Item 483,9970.53
+PROD00483,Mobile Accessories,Zentra,Zentra Mobile Accessories Item 484,1939.63
+PROD00484,Mobile Accessories,BharatBuy,BharatBuy Mobile Accessories Item 485,1735.75
+PROD00485,Electronics,Kosha,Kosha Electronics Item 486,64620.27
+PROD00486,Sports,TaraTech,TaraTech Sports Item 487,7978.05
+PROD00487,Sports,BharatBuy,BharatBuy Sports Item 488,6887.22
+PROD00488,Books,TaraTech,TaraTech Books Item 489,1999.0
+PROD00489,Sports,Nila,Nila Sports Item 490,14999.0
+PROD00490,Books,BharatBuy,BharatBuy Books Item 491,588.54
+PROD00491,Sports,Aarika,Aarika Sports Item 492,10277.86
+PROD00492,Books,Aarika,Aarika Books Item 493,604.16
+PROD00493,Footwear,Aarika,Aarika Footwear Item 494,5331.94
+PROD00494,Mobile Accessories,TaraTech,TaraTech Mobile Accessories Item 495,2121.94
+PROD00495,Beauty,Nila,Nila Beauty Item 496,3387.12
+PROD00496,Home & Kitchen,UrbanKart,UrbanKart Home & Kitchen Item 497,23634.97
+PROD00497,Clothing,Aarika,Aarika Clothing Item 498,3062.42
+PROD00498,Home & Kitchen,TaraTech,TaraTech Home & Kitchen Item 499,6065.32
+PROD00499,Beauty,Kosha,Kosha Beauty Item 500,4172.57

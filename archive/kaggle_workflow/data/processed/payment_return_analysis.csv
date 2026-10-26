@@ -1,0 +1,5 @@
+Payment_Method,order_count,return_count,not_returned_count,return_rate
+Gift Card,2537,1309,1228,0.5159637366968861
+Debit Card,2510,1283,1227,0.5111553784860557
+Credit Card,2473,1249,1224,0.5050545895673272
+PayPal,2480,1211,1269,0.4883064516129032

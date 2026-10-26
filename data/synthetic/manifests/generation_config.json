@@ -1,0 +1,27 @@
+{
+  "n_customers": 3000,
+  "n_products": 500,
+  "n_orders": 20000,
+  "seed": 42,
+  "period_start": "2024-01-01",
+  "months": 12,
+  "defect_rates": {
+    "missing_values": 0.004,
+    "inconsistent_categories": 0.006,
+    "mixed_date_formats": 0.015,
+    "duplicate_rows": 0.003,
+    "invalid_chronology": 0.003,
+    "numeric_as_string": 0.006,
+    "missing_identifiers": 0.002,
+    "impossible_negative_values": 0.002,
+    "implausible_outliers": 0.002
+  },
+  "scenario_shares": {
+    "NORMAL": 0.78,
+    "FREQUENT_LEGITIMATE_RETURNS": 0.08,
+    "REPEATED_DEFECT_CLAIMS": 0.04,
+    "HIGH_VALUE_RETURN_PATTERN": 0.035,
+    "RETURN_WINDOW_PATTERN": 0.035,
+    "MIXED_SUSPICIOUS_PATTERN": 0.03
+  }
+}

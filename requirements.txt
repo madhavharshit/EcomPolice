@@ -1,0 +1,8 @@
+pandas
+numpy
+Faker
+matplotlib
+seaborn
+jupyter
+nbformat
+nbclient

@@ -1,0 +1,861 @@
+Table,Row_ID,Column,Defect_Type,Original_Value,Injected_Value
+orders,ORD0018302,Payment_Method,missing_value,Cash on Delivery,
+orders,ORD0001641,Shipping_Method,missing_value,Standard,
+orders,ORD0010079,Payment_Method,missing_value,UPI,
+orders,ORD0012761,Shipping_Method,missing_value,Express,
+orders,ORD0018168,Discount_Pct,missing_value,7.09,
+orders,ORD0010793,Discount_Pct,missing_value,0.61,
+orders,ORD0006087,Payment_Method,missing_value,Credit Card,
+orders,ORD0007403,Payment_Method,missing_value,Debit Card,
+orders,ORD0012512,Payment_Method,missing_value,Wallet,
+orders,ORD0009942,Shipping_Method,missing_value,Express,
+orders,ORD0013548,Discount_Pct,missing_value,10.22,
+orders,ORD0016017,Payment_Method,missing_value,Cash on Delivery,
+orders,ORD0010504,Discount_Pct,missing_value,5.63,
+orders,ORD0002350,Payment_Method,missing_value,Debit Card,
+orders,ORD0003752,Discount_Pct,missing_value,2.07,
+orders,ORD0009842,Payment_Method,missing_value,Net Banking,
+orders,ORD0012310,Discount_Pct,missing_value,4.59,
+orders,ORD0017259,Payment_Method,missing_value,Credit Card,
+orders,ORD0019321,Shipping_Method,missing_value,Standard,
+orders,ORD0016324,Discount_Pct,missing_value,11.6,
+orders,ORD0007415,Discount_Pct,missing_value,18.07,
+orders,ORD0015294,Payment_Method,missing_value,UPI,
+orders,ORD0012799,Shipping_Method,missing_value,Standard,
+orders,ORD0011350,Shipping_Method,missing_value,Standard,
+orders,ORD0017764,Shipping_Method,missing_value,Express,
+orders,ORD0000577,Shipping_Method,missing_value,Express,
+orders,ORD0015764,Discount_Pct,missing_value,12.74,
+orders,ORD0010000,Shipping_Method,missing_value,Standard,
+orders,ORD0006712,Shipping_Method,missing_value,Standard,
+orders,ORD0007601,Shipping_Method,missing_value,Standard,
+orders,ORD0000783,Discount_Pct,missing_value,15.0,
+orders,ORD0011768,Shipping_Method,missing_value,Standard,
+orders,ORD0012840,Payment_Method,missing_value,Net Banking,
+orders,ORD0015716,Discount_Pct,missing_value,5.7,
+orders,ORD0018986,Discount_Pct,missing_value,1.12,
+orders,ORD0009858,Shipping_Method,missing_value,Standard,
+orders,ORD0016466,Shipping_Method,missing_value,Standard,
+orders,ORD0007944,Discount_Pct,missing_value,0.0,
+orders,ORD0010539,Payment_Method,missing_value,UPI,
+orders,ORD0016544,Discount_Pct,missing_value,18.06,
+orders,ORD0013292,Discount_Pct,missing_value,8.54,
+orders,ORD0019525,Payment_Method,missing_value,Wallet,
+orders,ORD0011944,Shipping_Method,missing_value,Standard,
+orders,ORD0004566,Shipping_Method,missing_value,Standard,
+orders,ORD0014204,Payment_Method,missing_value,Debit Card,
+orders,ORD0007108,Shipping_Method,missing_value,Standard,
+orders,ORD0005695,Payment_Method,missing_value,Credit Card,
+orders,ORD0004793,Payment_Method,missing_value,UPI,
+orders,ORD0017929,Payment_Method,missing_value,Net Banking,
+orders,ORD0017142,Shipping_Method,missing_value,Express,
+orders,ORD0007439,Discount_Pct,missing_value,4.7,
+orders,ORD0019102,Discount_Pct,missing_value,0.0,
+orders,ORD0011765,Shipping_Method,missing_value,Standard,
+orders,ORD0007691,Discount_Pct,missing_value,12.89,
+orders,ORD0000146,Discount_Pct,missing_value,18.78,
+orders,ORD0001959,Discount_Pct,missing_value,8.39,
+orders,ORD0007352,Shipping_Method,missing_value,Express,
+orders,ORD0000075,Shipping_Method,missing_value,Same-Day,
+orders,ORD0007788,Shipping_Method,missing_value,Standard,
+orders,ORD0004374,Discount_Pct,missing_value,10.15,
+orders,ORD0012054,Discount_Pct,missing_value,15.32,
+orders,ORD0003249,Shipping_Method,missing_value,Standard,
+orders,ORD0000799,Shipping_Method,missing_value,Standard,
+orders,ORD0008094,Discount_Pct,missing_value,7.16,
+orders,ORD0014987,Shipping_Method,missing_value,Standard,
+orders,ORD0001786,Discount_Pct,missing_value,0.77,
+orders,ORD0014549,Discount_Pct,missing_value,15.66,
+orders,ORD0000787,Payment_Method,missing_value,Wallet,
+orders,ORD0004830,Shipping_Method,missing_value,Express,
+orders,ORD0001582,Shipping_Method,missing_value,Standard,
+orders,ORD0009567,Discount_Pct,missing_value,28.74,
+orders,ORD0010795,Payment_Method,missing_value,UPI,
+orders,ORD0013625,Shipping_Method,missing_value,Standard,
+orders,ORD0013347,Shipping_Method,missing_value,Standard,
+orders,ORD0004875,Payment_Method,missing_value,UPI,
+orders,ORD0003329,Shipping_Method,missing_value,Standard,
+orders,ORD0012316,Payment_Method,missing_value,Debit Card,
+orders,ORD0018400,Discount_Pct,missing_value,12.16,
+orders,ORD0017808,Discount_Pct,missing_value,11.65,
+orders,ORD0001910,Shipping_Method,missing_value,Express,
+orders,ORD0016569,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0001700,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0010308,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0014386,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0010083,Payment_Method,inconsistent_category,Cash on Delivery,cash on delivery
+orders,ORD0012051,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0014713,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0018929,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0006763,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0007887,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0008788,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0002816,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0015867,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0002410,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0008397,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0012437,Payment_Method,inconsistent_category,Net Banking,net banking
+orders,ORD0017671,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0017306,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0002787,Shipping_Method,inconsistent_category,Same-Day,same day
+orders,ORD0009592,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0018689,Payment_Method,inconsistent_category,Wallet,wallet
+orders,ORD0007412,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0010367,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0017337,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0017183,Payment_Method,inconsistent_category,Net Banking,net banking
+orders,ORD0019642,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0000918,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0001758,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0008147,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0008074,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0017595,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0017661,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0007469,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0000928,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0004136,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0003112,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0001319,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0001541,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0000806,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0007949,Shipping_Method,inconsistent_category,Same-Day,same day
+orders,ORD0013532,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0017384,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0018465,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0003866,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0011474,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0019480,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0016572,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0010450,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0009718,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0017291,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0004708,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0011146,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0010668,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0005518,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0006871,Payment_Method,inconsistent_category,Cash on Delivery,cash on delivery
+orders,ORD0008793,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0012890,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0018099,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0015963,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0006527,Payment_Method,inconsistent_category,Net Banking,net banking
+orders,ORD0017871,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0011002,Payment_Method,inconsistent_category,Net Banking,net banking
+orders,ORD0015413,Payment_Method,inconsistent_category,Net Banking,net banking
+orders,ORD0005876,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0006117,Payment_Method,inconsistent_category,Cash on Delivery,cash on delivery
+orders,ORD0010503,Payment_Method,inconsistent_category,Net Banking,net banking
+orders,ORD0017083,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0012772,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0001577,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0018555,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0014875,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0018226,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0015646,Shipping_Method,inconsistent_category,Same-Day,same day
+orders,ORD0016246,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0008984,Payment_Method,inconsistent_category,Cash on Delivery,cash on delivery
+orders,ORD0016398,Payment_Method,inconsistent_category,Net Banking,net banking
+orders,ORD0001870,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0009442,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0006715,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0012120,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0018997,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0003276,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0002658,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0016208,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0008886,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0002982,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0002413,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0008244,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0006933,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0018236,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0004576,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0014115,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0015118,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0005711,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0009225,Payment_Method,inconsistent_category,Net Banking,net banking
+orders,ORD0017230,Shipping_Method,inconsistent_category,Same-Day,same day
+orders,ORD0006891,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0010945,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0018755,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0015256,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0014652,Shipping_Method,inconsistent_category,Same-Day,same day
+orders,ORD0008766,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0018146,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0014444,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0014765,Payment_Method,inconsistent_category,Debit Card,debit card
+orders,ORD0009563,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0011263,Payment_Method,inconsistent_category,Wallet,wallet
+orders,ORD0015482,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0007761,Shipping_Method,inconsistent_category,Same-Day,same day
+orders,ORD0010338,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0019569,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0002367,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0001472,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0011062,Shipping_Method,inconsistent_category,Standard,standard
+orders,ORD0006210,Payment_Method,inconsistent_category,Net Banking,net banking
+orders,ORD0014255,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0017634,Shipping_Method,inconsistent_category,Express,express
+orders,ORD0004178,Payment_Method,inconsistent_category,Credit Card,credit card
+orders,ORD0007202,Payment_Method,inconsistent_category,UPI,upi
+orders,ORD0010453,Payment_Method,inconsistent_category,Wallet,wallet
+orders,ORD0007796,Order_Date,mixed_date_format,2024-11-09,09/11/2024
+orders,ORD0018311,Order_Date,mixed_date_format,2024-09-13,13/09/2024
+orders,ORD0011810,Order_Date,mixed_date_format,2024-04-17,17/04/2024
+orders,ORD0011456,Order_Date,mixed_date_format,2024-03-27,27/03/2024
+orders,ORD0004519,Order_Date,mixed_date_format,2024-09-28,28/09/2024
+orders,ORD0017725,Order_Date,mixed_date_format,2024-08-13,13/08/2024
+orders,ORD0015824,Order_Date,mixed_date_format,2024-09-05,05/09/2024
+orders,ORD0002690,Order_Date,mixed_date_format,2024-02-07,07/02/2024
+orders,ORD0015241,Order_Date,mixed_date_format,2024-04-08,08/04/2024
+orders,ORD0006182,Order_Date,mixed_date_format,2024-02-11,11/02/2024
+orders,ORD0001929,Order_Date,mixed_date_format,2024-04-29,29/04/2024
+orders,ORD0016202,Order_Date,mixed_date_format,2024-08-12,12/08/2024
+orders,ORD0011912,Order_Date,mixed_date_format,2024-03-07,07/03/2024
+orders,ORD0007919,Order_Date,mixed_date_format,2024-06-30,30/06/2024
+orders,ORD0006903,Order_Date,mixed_date_format,2024-06-05,05/06/2024
+orders,ORD0012788,Order_Date,mixed_date_format,2024-05-09,09/05/2024
+orders,ORD0006886,Order_Date,mixed_date_format,2024-10-03,03/10/2024
+orders,ORD0018752,Order_Date,mixed_date_format,2024-02-13,13/02/2024
+orders,ORD0000132,Order_Date,mixed_date_format,2024-05-30,30/05/2024
+orders,ORD0007547,Order_Date,mixed_date_format,2024-06-17,17/06/2024
+orders,ORD0002454,Order_Date,mixed_date_format,2024-01-04,04/01/2024
+orders,ORD0003138,Order_Date,mixed_date_format,2024-02-01,01/02/2024
+orders,ORD0013545,Order_Date,mixed_date_format,2024-07-10,10/07/2024
+orders,ORD0006043,Order_Date,mixed_date_format,2024-04-06,06/04/2024
+orders,ORD0001483,Order_Date,mixed_date_format,2024-03-02,02/03/2024
+orders,ORD0013381,Order_Date,mixed_date_format,2024-01-16,16/01/2024
+orders,ORD0018815,Order_Date,mixed_date_format,2024-05-18,18/05/2024
+orders,ORD0019456,Order_Date,mixed_date_format,2024-10-11,11/10/2024
+orders,ORD0011064,Order_Date,mixed_date_format,2024-03-28,28/03/2024
+orders,ORD0002854,Order_Date,mixed_date_format,2024-09-12,12/09/2024
+orders,ORD0008050,Order_Date,mixed_date_format,2024-04-01,01/04/2024
+orders,ORD0011558,Order_Date,mixed_date_format,2024-01-21,21/01/2024
+orders,ORD0019516,Order_Date,mixed_date_format,2024-04-27,27/04/2024
+orders,ORD0002866,Order_Date,mixed_date_format,2024-02-01,01/02/2024
+orders,ORD0005400,Order_Date,mixed_date_format,2024-11-11,11/11/2024
+orders,ORD0019956,Order_Date,mixed_date_format,2024-11-30,30/11/2024
+orders,ORD0010046,Order_Date,mixed_date_format,2024-10-05,05/10/2024
+orders,ORD0015363,Order_Date,mixed_date_format,2024-05-04,04/05/2024
+orders,ORD0017061,Order_Date,mixed_date_format,2024-02-08,08/02/2024
+orders,ORD0007651,Order_Date,mixed_date_format,2024-11-18,18/11/2024
+orders,ORD0003227,Order_Date,mixed_date_format,2024-10-01,01/10/2024
+orders,ORD0005738,Order_Date,mixed_date_format,2024-05-05,05/05/2024
+orders,ORD0003131,Order_Date,mixed_date_format,2024-09-21,21/09/2024
+orders,ORD0007129,Order_Date,mixed_date_format,2024-02-14,14/02/2024
+orders,ORD0011647,Order_Date,mixed_date_format,2024-05-07,07/05/2024
+orders,ORD0007409,Order_Date,mixed_date_format,2024-11-14,14/11/2024
+orders,ORD0007953,Order_Date,mixed_date_format,2024-01-14,14/01/2024
+orders,ORD0004539,Order_Date,mixed_date_format,2024-06-14,14/06/2024
+orders,ORD0005775,Order_Date,mixed_date_format,2024-06-04,04/06/2024
+orders,ORD0012781,Order_Date,mixed_date_format,2024-09-28,28/09/2024
+orders,ORD0001571,Order_Date,mixed_date_format,2024-02-21,21/02/2024
+orders,ORD0009961,Order_Date,mixed_date_format,2024-01-05,05/01/2024
+orders,ORD0009427,Order_Date,mixed_date_format,2024-04-17,17/04/2024
+orders,ORD0008641,Order_Date,mixed_date_format,2024-01-11,11/01/2024
+orders,ORD0012333,Order_Date,mixed_date_format,2024-10-05,05/10/2024
+orders,ORD0004772,Order_Date,mixed_date_format,2024-09-23,23/09/2024
+orders,ORD0000538,Order_Date,mixed_date_format,2024-05-17,17/05/2024
+orders,ORD0008872,Order_Date,mixed_date_format,2024-07-31,31/07/2024
+orders,ORD0002273,Order_Date,mixed_date_format,2024-04-19,19/04/2024
+orders,ORD0003454,Order_Date,mixed_date_format,2024-12-27,27/12/2024
+orders,ORD0014225,Order_Date,mixed_date_format,2024-04-30,30/04/2024
+orders,ORD0009001,Order_Date,mixed_date_format,2024-11-16,16/11/2024
+orders,ORD0000093,Order_Date,mixed_date_format,2024-09-10,10/09/2024
+orders,ORD0013456,Order_Date,mixed_date_format,2024-10-23,23/10/2024
+orders,ORD0007369,Order_Date,mixed_date_format,2024-11-15,15/11/2024
+orders,ORD0005953,Order_Date,mixed_date_format,2024-05-15,15/05/2024
+orders,ORD0019105,Order_Date,mixed_date_format,2024-04-12,12/04/2024
+orders,ORD0007943,Order_Date,mixed_date_format,2024-10-09,09/10/2024
+orders,ORD0000962,Order_Date,mixed_date_format,2024-04-01,01/04/2024
+orders,ORD0019368,Order_Date,mixed_date_format,2024-03-16,16/03/2024
+orders,ORD0019990,Order_Date,mixed_date_format,2024-03-15,15/03/2024
+orders,ORD0018648,Order_Date,mixed_date_format,2024-04-09,09/04/2024
+orders,ORD0016880,Order_Date,mixed_date_format,2024-10-20,20/10/2024
+orders,ORD0015805,Order_Date,mixed_date_format,2024-03-28,28/03/2024
+orders,ORD0010348,Order_Date,mixed_date_format,2024-08-31,31/08/2024
+orders,ORD0010170,Order_Date,mixed_date_format,2024-12-21,21/12/2024
+orders,ORD0015021,Order_Date,mixed_date_format,2024-08-18,18/08/2024
+orders,ORD0003864,Order_Date,mixed_date_format,2024-07-10,10/07/2024
+orders,ORD0002802,Order_Date,mixed_date_format,2024-10-19,19/10/2024
+orders,ORD0002368,Order_Date,mixed_date_format,2024-03-30,30/03/2024
+orders,ORD0000738,Order_Date,mixed_date_format,2024-03-07,07/03/2024
+orders,ORD0007928,Order_Date,mixed_date_format,2024-11-14,14/11/2024
+orders,ORD0017423,Order_Date,mixed_date_format,2024-07-20,20/07/2024
+orders,ORD0016808,Order_Date,mixed_date_format,2024-12-27,27/12/2024
+orders,ORD0002665,Order_Date,mixed_date_format,2024-12-09,09/12/2024
+orders,ORD0007893,Order_Date,mixed_date_format,2024-05-04,04/05/2024
+orders,ORD0003069,Order_Date,mixed_date_format,2024-01-31,31/01/2024
+orders,ORD0015634,Order_Date,mixed_date_format,2024-03-07,07/03/2024
+orders,ORD0013716,Order_Date,mixed_date_format,2024-02-06,06/02/2024
+orders,ORD0007621,Order_Date,mixed_date_format,2024-02-14,14/02/2024
+orders,ORD0014466,Order_Date,mixed_date_format,2024-08-23,23/08/2024
+orders,ORD0002746,Order_Date,mixed_date_format,2024-07-27,27/07/2024
+orders,ORD0005642,Order_Date,mixed_date_format,2024-11-17,17/11/2024
+orders,ORD0012511,Order_Date,mixed_date_format,2024-06-03,03/06/2024
+orders,ORD0004460,Order_Date,mixed_date_format,2024-03-19,19/03/2024
+orders,ORD0011383,Order_Date,mixed_date_format,2024-07-01,01/07/2024
+orders,ORD0012556,Order_Date,mixed_date_format,2024-05-22,22/05/2024
+orders,ORD0004134,Order_Date,mixed_date_format,2024-01-25,25/01/2024
+orders,ORD0007296,Order_Date,mixed_date_format,2024-03-03,03/03/2024
+orders,ORD0004482,Order_Date,mixed_date_format,2024-09-23,23/09/2024
+orders,ORD0018339,Order_Date,mixed_date_format,2024-02-19,19/02/2024
+orders,ORD0015252,Order_Date,mixed_date_format,2024-11-25,25/11/2024
+orders,ORD0015202,Order_Date,mixed_date_format,2024-06-07,07/06/2024
+orders,ORD0018851,Order_Date,mixed_date_format,2024-09-01,01/09/2024
+orders,ORD0014513,Order_Date,mixed_date_format,2024-09-02,02/09/2024
+orders,ORD0018518,Order_Date,mixed_date_format,2024-10-05,05/10/2024
+orders,ORD0001060,Order_Date,mixed_date_format,2024-05-19,19/05/2024
+orders,ORD0005356,Order_Date,mixed_date_format,2024-11-23,23/11/2024
+orders,ORD0003910,Order_Date,mixed_date_format,2024-07-08,08/07/2024
+orders,ORD0015650,Order_Date,mixed_date_format,2024-01-28,28/01/2024
+orders,ORD0011886,Order_Date,mixed_date_format,2024-03-22,22/03/2024
+orders,ORD0008827,Order_Date,mixed_date_format,2024-09-25,25/09/2024
+orders,ORD0016033,Order_Date,mixed_date_format,2024-07-21,21/07/2024
+orders,ORD0010023,Order_Date,mixed_date_format,2024-09-28,28/09/2024
+orders,ORD0015988,Order_Date,mixed_date_format,2024-07-31,31/07/2024
+orders,ORD0016286,Order_Date,mixed_date_format,2024-04-14,14/04/2024
+orders,ORD0004625,Order_Date,mixed_date_format,2024-09-01,01/09/2024
+orders,ORD0004337,Order_Date,mixed_date_format,2024-07-20,20/07/2024
+orders,ORD0018131,Order_Date,mixed_date_format,2024-04-05,05/04/2024
+orders,ORD0001077,Order_Date,mixed_date_format,2024-08-14,14/08/2024
+orders,ORD0017704,Order_Date,mixed_date_format,2024-12-02,02/12/2024
+orders,ORD0006048,Order_Date,mixed_date_format,2024-01-07,07/01/2024
+orders,ORD0019367,Order_Date,mixed_date_format,2024-08-19,19/08/2024
+orders,ORD0018566,Order_Date,mixed_date_format,2024-04-02,02/04/2024
+orders,ORD0006176,Order_Date,mixed_date_format,2024-12-19,19/12/2024
+orders,ORD0003649,Order_Date,mixed_date_format,2024-11-15,15/11/2024
+orders,ORD0009450,Order_Date,mixed_date_format,2024-05-26,26/05/2024
+orders,ORD0017542,Order_Date,mixed_date_format,2024-12-05,05/12/2024
+orders,ORD0004216,Order_Date,mixed_date_format,2024-10-24,24/10/2024
+orders,ORD0002024,Order_Date,mixed_date_format,2024-10-30,30/10/2024
+orders,ORD0003235,Order_Date,mixed_date_format,2024-05-28,28/05/2024
+orders,ORD0019798,Order_Date,mixed_date_format,2024-05-13,13/05/2024
+orders,ORD0002254,Order_Date,mixed_date_format,2024-04-04,04/04/2024
+orders,ORD0001848,Order_Date,mixed_date_format,2024-05-07,07/05/2024
+orders,ORD0008418,Order_Date,mixed_date_format,2024-08-16,16/08/2024
+orders,ORD0003460,Order_Date,mixed_date_format,2024-02-02,02/02/2024
+orders,ORD0005040,Order_Date,mixed_date_format,2024-06-05,05/06/2024
+orders,ORD0011418,Order_Date,mixed_date_format,2024-05-04,04/05/2024
+orders,ORD0012188,Order_Date,mixed_date_format,2024-12-06,06/12/2024
+orders,ORD0016523,Order_Date,mixed_date_format,2024-10-10,10/10/2024
+orders,ORD0002667,Order_Date,mixed_date_format,2024-08-24,24/08/2024
+orders,ORD0002934,Order_Date,mixed_date_format,2024-09-15,15/09/2024
+orders,ORD0013459,Order_Date,mixed_date_format,2024-06-22,22/06/2024
+orders,ORD0006948,Order_Date,mixed_date_format,2024-09-01,01/09/2024
+orders,ORD0000827,Order_Date,mixed_date_format,2024-09-04,04/09/2024
+orders,ORD0013925,Order_Date,mixed_date_format,2024-12-13,13/12/2024
+orders,ORD0004299,Order_Date,mixed_date_format,2024-09-09,09/09/2024
+orders,ORD0017330,Order_Date,mixed_date_format,2024-05-08,08/05/2024
+orders,ORD0017447,Order_Date,mixed_date_format,2024-12-02,02/12/2024
+orders,ORD0003384,Order_Date,mixed_date_format,2024-03-23,23/03/2024
+orders,ORD0003937,Order_Date,mixed_date_format,2024-07-06,06/07/2024
+orders,ORD0019883,Order_Date,mixed_date_format,2024-07-23,23/07/2024
+orders,ORD0015046,Order_Date,mixed_date_format,2024-04-23,23/04/2024
+orders,ORD0013086,Order_Date,mixed_date_format,2024-10-14,14/10/2024
+orders,ORD0012266,Order_Date,mixed_date_format,2024-08-08,08/08/2024
+orders,ORD0010082,Order_Date,mixed_date_format,2024-07-24,24/07/2024
+orders,ORD0001786,Order_Date,mixed_date_format,2024-12-30,30/12/2024
+orders,ORD0018342,Order_Date,mixed_date_format,2024-10-01,01/10/2024
+orders,ORD0005371,Order_Date,mixed_date_format,2024-08-13,13/08/2024
+orders,ORD0014912,Order_Date,mixed_date_format,2024-01-25,25/01/2024
+orders,ORD0002464,Order_Date,mixed_date_format,2024-12-23,23/12/2024
+orders,ORD0010969,Order_Date,mixed_date_format,2024-05-05,05/05/2024
+orders,ORD0002497,Order_Date,mixed_date_format,2024-06-09,09/06/2024
+orders,ORD0009154,Order_Date,mixed_date_format,2024-09-29,29/09/2024
+orders,ORD0013640,Order_Date,mixed_date_format,2024-12-14,14/12/2024
+orders,ORD0019548,Order_Date,mixed_date_format,2024-09-19,19/09/2024
+orders,ORD0013955,Order_Date,mixed_date_format,2024-05-24,24/05/2024
+orders,ORD0006164,Order_Date,mixed_date_format,2024-09-06,06/09/2024
+orders,ORD0017320,Order_Date,mixed_date_format,2024-11-20,20/11/2024
+orders,ORD0001250,Order_Date,mixed_date_format,2024-03-03,03/03/2024
+orders,ORD0019569,Order_Date,mixed_date_format,2024-05-31,31/05/2024
+orders,ORD0017535,Order_Date,mixed_date_format,2024-02-02,02/02/2024
+orders,ORD0017899,Order_Date,mixed_date_format,2024-06-14,14/06/2024
+orders,ORD0004571,Order_Date,mixed_date_format,2024-09-09,09/09/2024
+orders,ORD0017550,Order_Date,mixed_date_format,2024-12-15,15/12/2024
+orders,ORD0006266,Order_Date,mixed_date_format,2024-10-15,15/10/2024
+orders,ORD0004907,Order_Date,mixed_date_format,2024-06-12,12/06/2024
+orders,ORD0009008,Order_Date,mixed_date_format,2024-01-19,19/01/2024
+orders,ORD0014328,Order_Date,mixed_date_format,2024-01-31,31/01/2024
+orders,ORD0016464,Order_Date,mixed_date_format,2024-03-05,05/03/2024
+orders,ORD0017068,Order_Date,mixed_date_format,2024-12-28,28/12/2024
+orders,ORD0013438,Order_Date,mixed_date_format,2024-09-06,06/09/2024
+orders,ORD0010255,Order_Date,mixed_date_format,2024-09-27,27/09/2024
+orders,ORD0009419,Order_Date,mixed_date_format,2024-10-26,26/10/2024
+orders,ORD0015976,Order_Date,mixed_date_format,2024-02-01,01/02/2024
+orders,ORD0014902,Order_Date,mixed_date_format,2024-07-19,19/07/2024
+orders,ORD0019196,Order_Date,mixed_date_format,2024-03-30,30/03/2024
+orders,ORD0004137,Order_Date,mixed_date_format,2024-08-05,05/08/2024
+orders,ORD0002735,Order_Date,mixed_date_format,2024-05-27,27/05/2024
+orders,ORD0005112,Order_Date,mixed_date_format,2024-05-01,01/05/2024
+orders,ORD0008934,Order_Date,mixed_date_format,2024-04-28,28/04/2024
+orders,ORD0010426,Order_Date,mixed_date_format,2024-03-03,03/03/2024
+orders,ORD0017779,Order_Date,mixed_date_format,2024-09-19,19/09/2024
+orders,ORD0006342,Order_Date,mixed_date_format,2024-04-15,15/04/2024
+orders,ORD0017392,Order_Date,mixed_date_format,2024-12-08,08/12/2024
+orders,ORD0017630,Order_Date,mixed_date_format,2024-11-26,26/11/2024
+orders,ORD0016039,Order_Date,mixed_date_format,2024-12-24,24/12/2024
+orders,ORD0009161,Order_Date,mixed_date_format,2024-08-24,24/08/2024
+orders,ORD0011575,Order_Date,mixed_date_format,2024-08-19,19/08/2024
+orders,ORD0011762,Order_Date,mixed_date_format,2024-10-22,22/10/2024
+orders,ORD0007505,Order_Date,mixed_date_format,2024-06-12,12/06/2024
+orders,ORD0007537,Order_Date,mixed_date_format,2024-06-21,21/06/2024
+orders,ORD0007247,Order_Date,mixed_date_format,2024-07-05,05/07/2024
+orders,ORD0003095,Order_Date,mixed_date_format,2024-10-16,16/10/2024
+orders,ORD0005382,Order_Date,mixed_date_format,2024-12-25,25/12/2024
+orders,ORD0006094,Order_Date,mixed_date_format,2024-05-25,25/05/2024
+orders,ORD0011507,Order_Date,mixed_date_format,2024-05-05,05/05/2024
+orders,ORD0006664,Order_Date,mixed_date_format,2024-12-01,01/12/2024
+orders,ORD0005213,Order_Date,mixed_date_format,2024-08-12,12/08/2024
+orders,ORD0017770,Order_Date,mixed_date_format,2024-11-22,22/11/2024
+orders,ORD0006897,Order_Date,mixed_date_format,2024-02-02,02/02/2024
+orders,ORD0015945,Order_Date,mixed_date_format,2024-05-23,23/05/2024
+orders,ORD0019783,Order_Date,mixed_date_format,2024-09-13,13/09/2024
+orders,ORD0000327,Order_Date,mixed_date_format,2024-12-24,24/12/2024
+orders,ORD0018591,Order_Date,mixed_date_format,2024-10-14,14/10/2024
+orders,ORD0013087,Order_Date,mixed_date_format,2024-11-15,15/11/2024
+orders,ORD0006133,Order_Date,mixed_date_format,2024-03-18,18/03/2024
+orders,ORD0018527,Order_Date,mixed_date_format,2024-09-22,22/09/2024
+orders,ORD0014566,Order_Date,mixed_date_format,2024-10-20,20/10/2024
+orders,ORD0015598,Order_Date,mixed_date_format,2024-02-12,12/02/2024
+orders,ORD0002316,Order_Date,mixed_date_format,2024-05-27,27/05/2024
+orders,ORD0010927,Order_Date,mixed_date_format,2024-06-06,06/06/2024
+orders,ORD0009311,Order_Date,mixed_date_format,2024-11-28,28/11/2024
+orders,ORD0006694,Order_Date,mixed_date_format,2024-07-08,08/07/2024
+orders,ORD0003645,Order_Date,mixed_date_format,2024-07-22,22/07/2024
+orders,ORD0007362,Order_Date,mixed_date_format,2024-11-10,10/11/2024
+orders,ORD0016214,Order_Date,mixed_date_format,2024-03-28,28/03/2024
+orders,ORD0010613,Order_Date,mixed_date_format,2024-09-16,16/09/2024
+orders,ORD0010054,Order_Date,mixed_date_format,2024-11-29,29/11/2024
+orders,ORD0010706,Order_Date,mixed_date_format,2024-05-21,21/05/2024
+orders,ORD0007453,Order_Date,mixed_date_format,2024-02-12,12/02/2024
+orders,ORD0000316,Order_Date,mixed_date_format,2024-03-06,06/03/2024
+orders,ORD0013746,Order_Date,mixed_date_format,2024-12-28,28/12/2024
+orders,ORD0004542,Order_Date,mixed_date_format,2024-04-10,10/04/2024
+orders,ORD0006311,Order_Date,mixed_date_format,2024-05-28,28/05/2024
+orders,ORD0005372,Order_Date,mixed_date_format,2024-01-21,21/01/2024
+orders,ORD0005347,Order_Date,mixed_date_format,2024-01-18,18/01/2024
+orders,ORD0016774,Order_Date,mixed_date_format,2024-06-08,08/06/2024
+orders,ORD0018604,Order_Date,mixed_date_format,2024-05-14,14/05/2024
+orders,ORD0017799,Order_Date,mixed_date_format,2024-01-27,27/01/2024
+orders,ORD0016641,Order_Date,mixed_date_format,2024-10-19,19/10/2024
+orders,ORD0017621,Order_Date,mixed_date_format,2024-06-28,28/06/2024
+orders,ORD0002644,Order_Date,mixed_date_format,2024-01-03,03/01/2024
+orders,ORD0000343,Order_Date,mixed_date_format,2024-10-22,22/10/2024
+orders,ORD0003315,Order_Date,mixed_date_format,2024-02-04,04/02/2024
+orders,ORD0016531,Order_Date,mixed_date_format,2024-12-07,07/12/2024
+orders,ORD0006321,Order_Date,mixed_date_format,2024-03-30,30/03/2024
+orders,ORD0008379,Order_Date,mixed_date_format,2024-07-09,09/07/2024
+orders,ORD0010961,Order_Date,mixed_date_format,2024-05-03,03/05/2024
+orders,ORD0015162,Order_Date,mixed_date_format,2024-10-11,11/10/2024
+orders,ORD0002470,Order_Date,mixed_date_format,2024-02-09,09/02/2024
+orders,ORD0006248,Order_Date,mixed_date_format,2024-05-21,21/05/2024
+orders,ORD0010701,Order_Date,mixed_date_format,2024-02-29,29/02/2024
+orders,ORD0013765,Order_Date,mixed_date_format,2024-05-08,08/05/2024
+orders,ORD0002147,Order_Date,mixed_date_format,2024-12-19,19/12/2024
+orders,ORD0005141,Order_Date,mixed_date_format,2024-06-02,02/06/2024
+orders,ORD0015672,Order_Date,mixed_date_format,2024-06-19,19/06/2024
+orders,ORD0011230,Order_Date,mixed_date_format,2024-04-07,07/04/2024
+orders,ORD0002016,Order_Date,mixed_date_format,2024-04-23,23/04/2024
+orders,ORD0019323,Order_Date,mixed_date_format,2024-11-28,28/11/2024
+orders,ORD0008024,Order_Date,mixed_date_format,2024-07-01,01/07/2024
+orders,ORD0007718,Order_Date,mixed_date_format,2024-07-03,03/07/2024
+orders,ORD0014781,Order_Date,mixed_date_format,2024-02-07,07/02/2024
+orders,ORD0007730,Order_Date,mixed_date_format,2024-07-12,12/07/2024
+orders,ORD0013566,Order_Date,mixed_date_format,2024-03-19,19/03/2024
+orders,ORD0010926,Order_Date,mixed_date_format,2024-08-29,29/08/2024
+orders,ORD0002009,Order_Date,mixed_date_format,2024-07-13,13/07/2024
+orders,ORD0010540,Order_Date,mixed_date_format,2024-04-07,07/04/2024
+orders,ORD0011131,Order_Date,mixed_date_format,2024-02-01,01/02/2024
+orders,ORD0017025,Order_Date,mixed_date_format,2024-07-09,09/07/2024
+orders,ORD0015196,Order_Date,mixed_date_format,2024-08-01,01/08/2024
+orders,ORD0012227,Order_Date,mixed_date_format,2024-11-23,23/11/2024
+orders,ORD0017876,Order_Date,mixed_date_format,2024-12-16,16/12/2024
+orders,ORD0007423,Order_Date,mixed_date_format,2024-10-17,17/10/2024
+orders,ORD0016856,Order_Date,mixed_date_format,2024-07-01,01/07/2024
+orders,ORD0004830,Order_Date,mixed_date_format,2024-06-07,07/06/2024
+orders,ORD0002885,Order_Date,mixed_date_format,2024-09-20,20/09/2024
+orders,ORD0000395,Order_Date,mixed_date_format,2024-01-12,12/01/2024
+orders,ORD0015973,Order_Date,mixed_date_format,2024-03-23,23/03/2024
+orders,ORD0007322,Order_Date,mixed_date_format,2024-08-15,15/08/2024
+orders,ORD0004371,Order_Date,mixed_date_format,2024-06-12,12/06/2024
+orders,ORD0001567,Order_Date,mixed_date_format,2024-03-19,19/03/2024
+orders,ORD0009335,Order_Date,mixed_date_format,2024-04-28,28/04/2024
+orders,ORD0000085,Order_Date,mixed_date_format,2024-12-01,01/12/2024
+orders,ORD0016041,Order_Date,mixed_date_format,2024-07-11,11/07/2024
+orders,ORD0002845,Order_Date,mixed_date_format,2024-05-03,03/05/2024
+orders,ORD0010866,Order_Date,mixed_date_format,2024-06-28,28/06/2024
+orders,ORD0008612,Order_Date,mixed_date_format,2024-09-26,26/09/2024
+orders,ORD0016112,Order_Date,mixed_date_format,2024-03-29,29/03/2024
+orders,ORD0006969,Order_Date,mixed_date_format,2024-09-09,09/09/2024
+orders,ORD0016473,Order_Date,mixed_date_format,2024-09-22,22/09/2024
+orders,ORD0001224,Order_Date,mixed_date_format,2024-05-31,31/05/2024
+orders,ORD0006804,Order_Date,mixed_date_format,2024-01-27,27/01/2024
+orders,ORD0013848,Order_Date,mixed_date_format,2024-09-10,10/09/2024
+orders,ORD0000329,Order_Date,mixed_date_format,2024-07-03,03/07/2024
+orders,ORD0010293,Order_Date,mixed_date_format,2024-03-05,05/03/2024
+orders,ORD0019556,Order_Date,mixed_date_format,2024-07-13,13/07/2024
+orders,ORD0018976,Order_Date,mixed_date_format,2024-09-11,11/09/2024
+orders,ORD0017124,Order_Date,mixed_date_format,2024-10-15,15/10/2024
+orders,ORD0008118,Order_Date,mixed_date_format,2024-02-17,17/02/2024
+orders,ORD0019849,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0016743,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0018216,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0010462,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0006112,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0014082,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0008343,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0001928,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0009956,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0014333,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0014768,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0004414,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0019526,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0009839,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0008779,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0009127,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0006409,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0011624,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0007503,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0015981,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0001233,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0010131,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0003420,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0009826,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0003595,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0010419,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0013490,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0018732,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0013830,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0008448,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0002334,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0000458,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0005657,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0000656,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0002558,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0008546,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0001358,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0005034,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0017009,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0018626,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0014560,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0007579,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0018508,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0004553,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0006248,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0017560,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0000286,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0014832,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0004278,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0007411,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0001929,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0017531,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0014903,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0011775,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0002215,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0004902,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0010640,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0001455,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0010679,*,duplicate_row,<row>,<duplicated row>
+orders,ORD0008292,*,duplicate_row,<row>,<duplicated row>
+returns,ORD0000599,Return_Date,invalid_date_chronology,2025-01-19,2024-12-08
+returns,ORD0006344,Return_Date,invalid_date_chronology,2024-11-05,2024-10-18
+returns,ORD0014442,Return_Date,invalid_date_chronology,2024-07-27,2024-06-18
+returns,ORD0014922,Return_Date,invalid_date_chronology,2024-05-16,2024-04-10
+returns,ORD0014210,Return_Date,invalid_date_chronology,2024-05-10,2024-04-01
+returns,ORD0007043,Return_Date,invalid_date_chronology,2024-09-06,2024-08-11
+returns,ORD0005945,Return_Date,invalid_date_chronology,2024-03-30,2024-03-04
+returns,ORD0015757,Return_Date,invalid_date_chronology,2024-07-10,2024-05-29
+returns,ORD0019067,Return_Date,invalid_date_chronology,2024-11-16,2024-11-04
+returns,ORD0000093,Return_Date,invalid_date_chronology,2024-10-13,2024-09-28
+returns,ORD0016109,Return_Date,invalid_date_chronology,2024-12-12,2024-11-16
+returns,ORD0007727,Return_Date,invalid_date_chronology,2024-10-15,2024-09-15
+returns,ORD0001079,Return_Date,invalid_date_chronology,2024-07-18,2024-06-02
+returns,ORD0006844,Return_Date,invalid_date_chronology,2025-01-25,2024-12-27
+returns,ORD0017651,Return_Date,invalid_date_chronology,2024-04-08,2024-03-09
+returns,ORD0016826,Return_Date,invalid_date_chronology,2024-12-17,2024-11-04
+returns,ORD0006354,Return_Date,invalid_date_chronology,2024-06-19,2024-05-06
+returns,ORD0015946,Return_Date,invalid_date_chronology,2024-11-13,2024-10-26
+returns,ORD0008088,Return_Date,invalid_date_chronology,2024-07-14,2024-06-09
+returns,ORD0019025,Return_Date,invalid_date_chronology,2024-11-05,2024-10-05
+returns,ORD0000887,Return_Date,invalid_date_chronology,2024-12-24,2024-11-12
+returns,ORD0017988,Return_Date,invalid_date_chronology,2024-09-14,2024-08-06
+returns,ORD0004027,Return_Date,invalid_date_chronology,2024-02-28,2024-02-13
+returns,ORD0007162,Return_Date,invalid_date_chronology,2024-12-30,2024-12-09
+returns,ORD0006321,Return_Date,invalid_date_chronology,2024-04-30,2024-03-21
+returns,ORD0019153,Return_Date,invalid_date_chronology,2024-07-13,2024-05-29
+returns,ORD0015881,Return_Date,invalid_date_chronology,2024-07-10,2024-06-03
+returns,ORD0011378,Return_Date,invalid_date_chronology,2024-02-25,2024-01-23
+returns,ORD0016123,Return_Date,invalid_date_chronology,2024-06-19,2024-05-13
+returns,ORD0006889,Return_Date,invalid_date_chronology,2025-01-12,2024-12-06
+returns,ORD0003669,Return_Date,invalid_date_chronology,2025-01-25,2024-12-11
+returns,ORD0016519,Return_Date,invalid_date_chronology,2024-03-10,2024-01-28
+returns,ORD0016983,Return_Date,invalid_date_chronology,2025-01-17,2024-12-23
+returns,ORD0002234,Return_Date,invalid_date_chronology,2025-01-23,2024-12-22
+returns,ORD0008706,Return_Date,invalid_date_chronology,2024-07-25,2024-06-28
+returns,ORD0007453,Return_Date,invalid_date_chronology,2024-03-15,2024-11-23
+returns,ORD0008269,Return_Date,invalid_date_chronology,2024-05-03,2024-03-22
+returns,ORD0002514,Return_Date,invalid_date_chronology,2024-07-29,2024-06-22
+returns,ORD0003767,Return_Date,invalid_date_chronology,2024-10-18,2024-09-14
+returns,ORD0016953,Return_Date,invalid_date_chronology,2024-04-17,2024-03-06
+returns,ORD0016336,Return_Date,invalid_date_chronology,2024-05-12,2024-04-25
+returns,ORD0013103,Return_Date,invalid_date_chronology,2025-01-08,2024-12-01
+returns,ORD0000209,Return_Date,invalid_date_chronology,2024-02-24,2024-01-21
+returns,ORD0005425,Return_Date,invalid_date_chronology,2025-01-16,2024-12-18
+returns,ORD0017364,Return_Date,invalid_date_chronology,2024-04-09,2024-03-14
+returns,ORD0005442,Return_Date,invalid_date_chronology,2024-06-13,2024-04-26
+returns,ORD0009747,Return_Date,invalid_date_chronology,2024-02-10,2024-01-07
+returns,ORD0019971,Return_Date,invalid_date_chronology,2024-04-29,2024-03-27
+returns,ORD0014877,Return_Date,invalid_date_chronology,2024-12-18,2024-11-29
+returns,ORD0015701,Return_Date,invalid_date_chronology,2024-04-17,2024-03-18
+returns,ORD0017139,Return_Date,invalid_date_chronology,2024-02-07,2024-01-11
+returns,ORD0000092,Return_Date,invalid_date_chronology,2024-10-06,2024-08-29
+returns,ORD0010279,Return_Date,invalid_date_chronology,2024-09-07,2024-08-01
+returns,ORD0012736,Return_Date,invalid_date_chronology,2024-06-22,2024-05-13
+returns,ORD0016309,Return_Date,invalid_date_chronology,2024-03-06,2024-02-02
+returns,ORD0015418,Return_Date,invalid_date_chronology,2024-03-25,2024-02-29
+returns,ORD0006808,Return_Date,invalid_date_chronology,2024-10-06,2024-08-22
+returns,ORD0002691,Return_Date,invalid_date_chronology,2024-05-08,2024-04-18
+returns,ORD0013146,Return_Date,invalid_date_chronology,2024-12-09,2024-11-18
+returns,ORD0012577,Return_Date,invalid_date_chronology,2024-12-05,2024-11-07
+orders,ORD0016981,Unit_Price_INR,numeric_as_string,699.16,INR 699.16
+orders,ORD0000348,Discount_Pct,numeric_as_string,0.0,0.0
+orders,ORD0013239,Quantity,numeric_as_string,1,1
+orders,ORD0007650,Discount_Pct,numeric_as_string,0.0,0.0
+orders,ORD0009921,Unit_Price_INR,numeric_as_string,2999.0,INR 2999.0
+orders,ORD0006637,Unit_Price_INR,numeric_as_string,1049.56,INR 1049.56
+orders,ORD0006611,Quantity,numeric_as_string,2,2
+orders,ORD0005553,Discount_Pct,numeric_as_string,10.18,10.18
+orders,ORD0004807,Unit_Price_INR,numeric_as_string,1831.6,INR 1831.6
+orders,ORD0000568,Unit_Price_INR,numeric_as_string,3348.71,INR 3348.71
+orders,ORD0008752,Discount_Pct,numeric_as_string,0.0,0.0
+orders,ORD0006033,Quantity,numeric_as_string,1,1
+orders,ORD0004749,Quantity,numeric_as_string,2,2
+orders,ORD0014444,Discount_Pct,numeric_as_string,5.81,5.81
+orders,ORD0009201,Discount_Pct,numeric_as_string,10.51,10.51
+orders,ORD0007163,Unit_Price_INR,numeric_as_string,1822.15,INR 1822.15
+orders,ORD0008181,Quantity,numeric_as_string,1,1
+orders,ORD0011250,Unit_Price_INR,numeric_as_string,6887.22,INR 6887.22
+orders,ORD0008929,Unit_Price_INR,numeric_as_string,1066.68,INR 1066.68
+orders,ORD0008046,Unit_Price_INR,numeric_as_string,1395.8,INR 1395.8
+orders,ORD0001887,Unit_Price_INR,numeric_as_string,3107.07,INR 3107.07
+orders,ORD0011434,Discount_Pct,numeric_as_string,23.68,23.68
+orders,ORD0012813,Discount_Pct,numeric_as_string,1.56,1.56
+orders,ORD0010037,Quantity,numeric_as_string,1,1
+orders,ORD0008073,Unit_Price_INR,numeric_as_string,19156.36,INR 19156.36
+orders,ORD0006735,Discount_Pct,numeric_as_string,11.9,11.9
+orders,ORD0003863,Quantity,numeric_as_string,1,1
+orders,ORD0008949,Unit_Price_INR,numeric_as_string,1999.0,INR 1999.0
+orders,ORD0013704,Quantity,numeric_as_string,1,1
+orders,ORD0003228,Discount_Pct,numeric_as_string,13.16,13.16
+orders,ORD0007100,Quantity,numeric_as_string,1,1
+orders,ORD0018052,Discount_Pct,numeric_as_string,18.94,18.94
+orders,ORD0001553,Quantity,numeric_as_string,1,1
+orders,ORD0006568,Discount_Pct,numeric_as_string,23.04,23.04
+orders,ORD0012339,Discount_Pct,numeric_as_string,12.57,12.57
+orders,ORD0014077,Unit_Price_INR,numeric_as_string,4323.15,INR 4323.15
+orders,ORD0003219,Discount_Pct,numeric_as_string,8.24,8.24
+orders,ORD0003490,Unit_Price_INR,numeric_as_string,14144.57,INR 14144.57
+orders,ORD0007369,Unit_Price_INR,numeric_as_string,2167.5,INR 2167.5
+orders,ORD0001560,Discount_Pct,numeric_as_string,1.25,1.25
+orders,ORD0010490,Quantity,numeric_as_string,1,1
+orders,ORD0002370,Unit_Price_INR,numeric_as_string,3569.1,INR 3569.1
+orders,ORD0018432,Discount_Pct,numeric_as_string,0.0,0.0
+orders,ORD0003245,Discount_Pct,numeric_as_string,9.5,9.5
+orders,ORD0006564,Unit_Price_INR,numeric_as_string,3095.55,INR 3095.55
+orders,ORD0009974,Quantity,numeric_as_string,1,1
+orders,ORD0019317,Discount_Pct,numeric_as_string,1.38,1.38
+orders,ORD0014882,Unit_Price_INR,numeric_as_string,1687.46,INR 1687.46
+orders,ORD0016030,Unit_Price_INR,numeric_as_string,1049.56,INR 1049.56
+orders,ORD0006889,Discount_Pct,numeric_as_string,7.5,7.5
+orders,ORD0014660,Discount_Pct,numeric_as_string,12.7,12.7
+orders,ORD0000017,Discount_Pct,numeric_as_string,15.81,15.81
+orders,ORD0015555,Unit_Price_INR,numeric_as_string,17613.5,INR 17613.5
+orders,ORD0004459,Quantity,numeric_as_string,3,3
+orders,ORD0005675,Quantity,numeric_as_string,1,1
+orders,ORD0018774,Unit_Price_INR,numeric_as_string,1364.15,INR 1364.15
+orders,ORD0014064,Unit_Price_INR,numeric_as_string,4999.0,INR 4999.0
+orders,ORD0008874,Unit_Price_INR,numeric_as_string,1144.92,INR 1144.92
+orders,ORD0006915,Quantity,numeric_as_string,1,1
+orders,ORD0004069,Quantity,numeric_as_string,3,3
+orders,ORD0004059,Unit_Price_INR,numeric_as_string,10894.68,INR 10894.68
+orders,ORD0007577,Discount_Pct,numeric_as_string,4.72,4.72
+orders,ORD0010009,Unit_Price_INR,numeric_as_string,28415.79,INR 28415.79
+orders,ORD0010720,Discount_Pct,numeric_as_string,12.98,12.98
+orders,ORD0009153,Unit_Price_INR,numeric_as_string,6999.0,INR 6999.0
+orders,ORD0005401,Unit_Price_INR,numeric_as_string,3133.05,INR 3133.05
+orders,ORD0019498,Discount_Pct,numeric_as_string,12.3,12.3
+orders,ORD0001333,Quantity,numeric_as_string,2,2
+orders,ORD0014332,Quantity,numeric_as_string,1,1
+orders,ORD0005564,Unit_Price_INR,numeric_as_string,3825.48,INR 3825.48
+orders,ORD0005853,Unit_Price_INR,numeric_as_string,1835.48,INR 1835.48
+orders,ORD0010175,Unit_Price_INR,numeric_as_string,2672.38,INR 2672.38
+orders,ORD0002796,Discount_Pct,numeric_as_string,14.91,14.91
+orders,ORD0019470,Unit_Price_INR,numeric_as_string,3853.16,INR 3853.16
+orders,ORD0012332,Unit_Price_INR,numeric_as_string,24999.0,INR 24999.0
+orders,ORD0008013,Quantity,numeric_as_string,1,1
+orders,ORD0016396,Quantity,numeric_as_string,1,1
+orders,ORD0018939,Quantity,numeric_as_string,1,1
+orders,ORD0000637,Discount_Pct,numeric_as_string,8.24,8.24
+orders,ORD0010233,Quantity,numeric_as_string,1,1
+orders,ORD0008880,Unit_Price_INR,numeric_as_string,10674.75,INR 10674.75
+orders,ORD0014875,Quantity,numeric_as_string,1,1
+orders,ORD0011141,Discount_Pct,numeric_as_string,0.58,0.58
+orders,ORD0009074,Discount_Pct,numeric_as_string,13.11,13.11
+orders,ORD0014529,Discount_Pct,numeric_as_string,20.63,20.63
+orders,ORD0019445,Unit_Price_INR,numeric_as_string,1834.66,INR 1834.66
+orders,ORD0006058,Unit_Price_INR,numeric_as_string,10142.44,INR 10142.44
+orders,ORD0000613,Quantity,numeric_as_string,1,1
+orders,ORD0008955,Discount_Pct,numeric_as_string,1.15,1.15
+orders,ORD0007113,Quantity,numeric_as_string,1,1
+orders,ORD0014816,Quantity,numeric_as_string,1,1
+orders,ORD0004865,Discount_Pct,numeric_as_string,0.0,0.0
+orders,ORD0014314,Unit_Price_INR,numeric_as_string,1733.14,INR 1733.14
+orders,ORD0000318,Unit_Price_INR,numeric_as_string,8997.63,INR 8997.63
+orders,ORD0003635,Unit_Price_INR,numeric_as_string,1220.88,INR 1220.88
+orders,ORD0014629,Discount_Pct,numeric_as_string,14.11,14.11
+orders,ORD0009283,Unit_Price_INR,numeric_as_string,8353.97,INR 8353.97
+orders,ORD0004910,Unit_Price_INR,numeric_as_string,10360.54,INR 10360.54
+orders,ORD0016366,Unit_Price_INR,numeric_as_string,21365.74,INR 21365.74
+orders,ORD0002662,Discount_Pct,numeric_as_string,15.63,15.63
+orders,ORD0010022,Discount_Pct,numeric_as_string,10.64,10.64
+orders,ORD0009381,Quantity,numeric_as_string,1,1
+orders,ORD0013572,Discount_Pct,numeric_as_string,5.69,5.69
+orders,ORD0013406,Unit_Price_INR,numeric_as_string,2310.77,INR 2310.77
+orders,ORD0015268,Unit_Price_INR,numeric_as_string,1861.83,INR 1861.83
+orders,ORD0012285,Unit_Price_INR,numeric_as_string,765.3,INR 765.3
+orders,ORD0006624,Quantity,numeric_as_string,1,1
+orders,ORD0010528,Unit_Price_INR,numeric_as_string,3759.71,INR 3759.71
+orders,ORD0001477,Quantity,numeric_as_string,2,2
+orders,ORD0005410,Quantity,numeric_as_string,1,1
+orders,ORD0013024,Discount_Pct,numeric_as_string,4.66,4.66
+orders,ORD0015035,Unit_Price_INR,numeric_as_string,8160.24,INR 8160.24
+orders,ORD0006487,Discount_Pct,numeric_as_string,5.02,5.02
+orders,ORD0006947,Unit_Price_INR,numeric_as_string,1239.63,INR 1239.63
+orders,ORD0000388,Quantity,numeric_as_string,2,2
+orders,ORD0002774,Unit_Price_INR,numeric_as_string,25375.12,INR 25375.12
+orders,ORD0016134,Unit_Price_INR,numeric_as_string,65743.8,INR 65743.8
+orders,ORD0016896,Quantity,numeric_as_string,2,2
+orders,ORD0007538,Unit_Price_INR,numeric_as_string,9970.53,INR 9970.53
+orders,ORD0015919,Quantity,numeric_as_string,1,1
+orders,ORD0018466,Customer_ID,missing_identifier,CUST000713,
+orders,ORD0005790,Product_ID,missing_identifier,PROD00194,
+orders,ORD0013987,Customer_ID,missing_identifier,CUST001140,
+orders,ORD0009206,Customer_ID,missing_identifier,CUST002008,
+orders,ORD0003004,Customer_ID,missing_identifier,CUST002762,
+orders,ORD0005592,Product_ID,missing_identifier,PROD00076,
+orders,ORD0019370,Customer_ID,missing_identifier,CUST002817,
+orders,ORD0004627,Customer_ID,missing_identifier,CUST001096,
+orders,ORD0012826,Product_ID,missing_identifier,PROD00104,
+orders,ORD0014412,Product_ID,missing_identifier,PROD00116,
+orders,ORD0006887,Product_ID,missing_identifier,PROD00256,
+orders,ORD0015903,Product_ID,missing_identifier,PROD00104,
+orders,ORD0006438,Product_ID,missing_identifier,PROD00119,
+orders,ORD0017293,Product_ID,missing_identifier,PROD00361,
+orders,ORD0011770,Customer_ID,missing_identifier,CUST000449,
+orders,ORD0002053,Customer_ID,missing_identifier,CUST000129,
+orders,ORD0011282,Customer_ID,missing_identifier,CUST001824,
+orders,ORD0019840,Product_ID,missing_identifier,PROD00022,
+orders,ORD0018027,Product_ID,missing_identifier,PROD00219,
+orders,ORD0019770,Customer_ID,missing_identifier,CUST001144,
+orders,ORD0017861,Customer_ID,missing_identifier,CUST000969,
+orders,ORD0005444,Product_ID,missing_identifier,PROD00266,
+orders,ORD0004534,Customer_ID,missing_identifier,CUST001068,
+orders,ORD0006143,Product_ID,missing_identifier,PROD00211,
+orders,ORD0015239,Product_ID,missing_identifier,PROD00219,
+orders,ORD0019728,Customer_ID,missing_identifier,CUST000540,
+orders,ORD0002334,Product_ID,missing_identifier,PROD00143,
+orders,ORD0019650,Customer_ID,missing_identifier,CUST002987,
+orders,ORD0009243,Product_ID,missing_identifier,PROD00307,
+orders,ORD0014436,Product_ID,missing_identifier,PROD00357,
+orders,ORD0017410,Product_ID,missing_identifier,PROD00011,
+orders,ORD0010993,Customer_ID,missing_identifier,CUST000722,
+orders,ORD0007342,Product_ID,missing_identifier,PROD00461,
+orders,ORD0014112,Customer_ID,missing_identifier,CUST002666,
+orders,ORD0015081,Customer_ID,missing_identifier,CUST001027,
+orders,ORD0004625,Product_ID,missing_identifier,PROD00380,
+orders,ORD0014878,Customer_ID,missing_identifier,CUST001718,
+orders,ORD0008560,Customer_ID,missing_identifier,CUST000767,
+orders,ORD0017818,Product_ID,missing_identifier,PROD00164,
+orders,ORD0002471,Customer_ID,missing_identifier,CUST002677,
+orders,ORD0002876,Unit_Price_INR,impossible_negative_value,8175.47,-8175.47
+orders,ORD0008170,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0008546,Unit_Price_INR,impossible_negative_value,42863.47,-42863.47
+orders,ORD0005448,Unit_Price_INR,impossible_negative_value,8916.05,-8916.05
+orders,ORD0012331,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0008311,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0019011,Unit_Price_INR,impossible_negative_value,49086.1,-49086.1
+orders,ORD0000248,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0017358,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0013841,Unit_Price_INR,impossible_negative_value,1999.0,-1999.0
+orders,ORD0016987,Unit_Price_INR,impossible_negative_value,3154.41,-3154.41
+orders,ORD0018600,Quantity,impossible_negative_value,2,-2.0
+orders,ORD0019193,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0016006,Unit_Price_INR,impossible_negative_value,9855.76,-9855.76
+orders,ORD0003373,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0014680,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0006428,Unit_Price_INR,impossible_negative_value,5755.23,-5755.23
+orders,ORD0004074,Unit_Price_INR,impossible_negative_value,1678.37,-1678.37
+orders,ORD0003856,Quantity,impossible_negative_value,2,-2.0
+orders,ORD0010079,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0018749,Unit_Price_INR,impossible_negative_value,6999.0,-6999.0
+orders,ORD0015594,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0014075,Unit_Price_INR,impossible_negative_value,40623.24,-40623.24
+orders,ORD0015199,Unit_Price_INR,impossible_negative_value,8353.97,-8353.97
+orders,ORD0019833,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0001193,Unit_Price_INR,impossible_negative_value,47609.89,-47609.89
+orders,ORD0018318,Unit_Price_INR,impossible_negative_value,3142.33,-3142.33
+orders,ORD0015741,Quantity,impossible_negative_value,2,-2.0
+orders,ORD0009604,Unit_Price_INR,impossible_negative_value,3768.77,-3768.77
+orders,ORD0019427,Unit_Price_INR,impossible_negative_value,6605.36,-6605.36
+orders,ORD0014629,Unit_Price_INR,impossible_negative_value,30093.83,-30093.83
+orders,ORD0011904,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0018580,Unit_Price_INR,impossible_negative_value,3349.85,-3349.85
+orders,ORD0012077,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0012129,Unit_Price_INR,impossible_negative_value,89999.0,-89999.0
+orders,ORD0006362,Unit_Price_INR,impossible_negative_value,6329.06,-6329.06
+orders,ORD0005536,Quantity,impossible_negative_value,4,-4.0
+orders,ORD0005764,Quantity,impossible_negative_value,1,-1.0
+orders,ORD0014764,Quantity,impossible_negative_value,2,-2.0
+orders,ORD0011577,Unit_Price_INR,impossible_negative_value,64620.27,-64620.27
+orders,ORD0003976,Unit_Price_INR,implausible_outlier,2634.71,65867.75
+orders,ORD0007607,Quantity,implausible_outlier,1,89
+orders,ORD0009450,Quantity,implausible_outlier,2,103
+orders,ORD0019973,Unit_Price_INR,implausible_outlier,4999.0,124975.0
+orders,ORD0006763,Unit_Price_INR,implausible_outlier,3348.71,83717.75
+orders,ORD0015276,Quantity,implausible_outlier,2,105
+orders,ORD0019951,Quantity,implausible_outlier,1,168
+orders,ORD0002933,Quantity,implausible_outlier,1,73
+orders,ORD0012787,Quantity,implausible_outlier,1,84
+orders,ORD0000044,Unit_Price_INR,implausible_outlier,2742.83,68570.75
+orders,ORD0003837,Unit_Price_INR,implausible_outlier,3405.01,85125.25
+orders,ORD0010622,Unit_Price_INR,implausible_outlier,1215.67,30391.75
+orders,ORD0006081,Unit_Price_INR,implausible_outlier,1284.03,32100.75
+orders,ORD0012910,Unit_Price_INR,implausible_outlier,3387.12,84678.0
+orders,ORD0002480,Unit_Price_INR,implausible_outlier,4532.34,113308.5
+orders,ORD0019937,Quantity,implausible_outlier,1,190
+orders,ORD0010541,Quantity,implausible_outlier,2,158
+orders,ORD0019493,Unit_Price_INR,implausible_outlier,9578.71,239467.74999999997
+orders,ORD0004413,Quantity,implausible_outlier,2,196
+orders,ORD0010486,Quantity,implausible_outlier,1,62
+orders,ORD0008884,Unit_Price_INR,implausible_outlier,31142.65,778566.25
+orders,ORD0010352,Quantity,implausible_outlier,1,127
+orders,ORD0011010,Unit_Price_INR,implausible_outlier,1936.78,48419.5
+orders,ORD0016869,Quantity,implausible_outlier,1,104
+orders,ORD0005243,Unit_Price_INR,implausible_outlier,4999.0,124975.0
+orders,ORD0011932,Quantity,implausible_outlier,1,115
+orders,ORD0014018,Quantity,implausible_outlier,3,135
+orders,ORD0015946,Quantity,implausible_outlier,1,160
+orders,ORD0003524,Quantity,implausible_outlier,1,112
+orders,ORD0019685,Quantity,implausible_outlier,1,103
+orders,ORD0017554,Unit_Price_INR,implausible_outlier,14999.0,374975.0
+orders,ORD0001886,Quantity,implausible_outlier,3,53
+orders,ORD0001866,Quantity,implausible_outlier,1,133
+orders,ORD0010076,Quantity,implausible_outlier,1,170
+orders,ORD0000886,Quantity,implausible_outlier,1,53
+orders,ORD0012151,Quantity,implausible_outlier,3,157
+orders,ORD0014240,Unit_Price_INR,implausible_outlier,2634.71,65867.75
+orders,ORD0008175,Quantity,implausible_outlier,2,160
+orders,ORD0000693,Unit_Price_INR,implausible_outlier,884.1,22102.5
+orders,ORD0003305,Unit_Price_INR,implausible_outlier,1037.03,25925.75
