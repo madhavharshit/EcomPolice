@@ -1,6 +1,6 @@
 # EcomPolice
 
-EcomPolice is a synthetic e-commerce return analytics project built for academic demonstration. It takes fictional Indian e-commerce data through generation, quality auditing, preprocessing, exploratory analysis, leakage-aware feature engineering, and ML experiment design.
+EcomPolice is a synthetic e-commerce return analytics project built for academic demonstration. It takes generated Indian e-commerce data through generation, quality auditing, preprocessing, exploratory analysis, leakage-aware feature engineering, and ML experiment design.
 
 > Synthetic-only project. Simulated scenario labels are not verified fraud labels, and a returned order is not automatically suspicious.
 
