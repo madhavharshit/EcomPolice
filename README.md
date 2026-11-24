@@ -1,203 +1,84 @@
 # EcomPolice
 
-EcomPolice is a synthetic-data analytics project that studies e-commerce order and return behaviour. It is designed as a reproducible academic workflow for demonstrating data understanding, data quality analysis, exploratory data analysis, preprocessing, and leakage-aware feature preparation.
+EcomPolice is a synthetic e-commerce return analytics project built for academic demonstration. It takes fictional Indian e-commerce data through generation, quality auditing, preprocessing, exploratory analysis, leakage-aware feature engineering, and ML experiment design.
 
-The active project uses only generated synthetic data. It does not use the retired Kaggle workflow, train a model, predict fraud, or classify every return as abuse. A local Streamlit application makes the completed workflow easy to demonstrate to a teacher.
+> Synthetic-only project. Simulated scenario labels are not verified fraud labels, and a returned order is not automatically suspicious.
 
-## Project Goals
+## What is included
 
-- Understand the structure and relationships in an e-commerce dataset.
-- Analyse realistic but controlled data-quality problems.
-- Explore customer, product, delivery, and return behaviour.
-- Create a clean, documented order-level analytical dataset.
-- Prepare leakage-aware features for a future modelling phase.
-
-## Key Principles
-
-- **Synthetic only:** all customers, transactions, scenarios, and defects are generated for this project.
-- **Labels are separate:** simulated scenario labels are stored outside the transaction features.
-- **Returns are not proof of abuse:** a high return rate is an investigation signal, not a conclusion.
-- **No model training yet:** this repository stops at model-ready data preparation.
-- **Reproducible workflow:** notebooks use paths derived from the project root and can be run in order from a fresh kernel.
+- Synthetic customers, products, orders, deliveries, returns, labels, and controlled defects
+- Six teacher-ready Jupyter notebooks
+- A reproducible preprocessing and feature-engineering pipeline
+- Dataset validation and a customer-grouped ML experiment plan
+- A local Streamlit presentation dashboard
+- Automated tests and audit reports
 
 ## Workflow
 
-```text
-Synthetic generator
-       |
-       +--> Clean entity tables ----> Overview notebook ----> EDA notebook
-       |
-       +--> Messy entity tables ----> Quality notebook -----> Preprocessing notebook
-       |                                                        |
-       +--> Labels + defect manifest ---------------------------+
-                                                                |
-                                                         Feature engineering
-                                                                |
-                                                   Processed outputs for a future model
+```mermaid
+flowchart LR
+    A[Synthetic generator] --> B[Clean source tables]
+    A --> C[Messy source tables]
+    A --> D[Labels and defect manifest]
+    B --> E[01 Data overview]
+    B --> F[03 Exploratory analysis]
+    C --> G[02 Data quality analysis]
+    C --> H[04 Preprocessing audit]
+    D --> H
+    B --> I[05 Feature engineering]
+    D --> I
+    H --> J[cleaned_orders.csv]
+    I --> K[Return and customer features]
+    K --> L[06 ML dataset validation]
+    L --> M[Customer-grouped experiment design]
+    J --> N[Streamlit demo app]
+    K --> N
+    M --> N
 ```
 
-## Teacher Demonstration Application
-
-After installing requirements and generating the derived outputs, start the local application from the project root:
-
-```bash
-streamlit run app.py
-```
-
-It opens a presentation-ready walkthrough with five sections:
-
-- Project overview and entity relationships.
-- Controlled defects, before/after preprocessing evidence, and join integrity.
-- Descriptive synthetic-data exploration.
-- Leakage-aware return-level features and separate simulated targets.
-- Customer-grouped train/validation/test experiment design.
-
-The application is intentionally read-only: it does not train a model, predict abuse, edit source data, or expose archived Kaggle files.
-
-## Notebook Series
-
-Run these notebooks in sequence:
-
-| Order | Notebook | Purpose |
-| --- | --- | --- |
-| 1 | `01_synthetic_data_overview.ipynb` | Explains the synthetic tables, identifiers, relationships, and label separation. |
-| 2 | `02_data_quality_analysis.ipynb` | Identifies controlled defects in the messy data before correcting anything. |
-| 3 | `03_exploratory_data_analysis.ipynb` | Studies generated order, delivery, return, customer, and scenario patterns. |
-| 4 | `04_data_preprocessing.ipynb` | Cleans and flags messy data, then creates one consolidated row per order. |
-| 5 | `05_feature_engineering_and_model_ready_data.ipynb` | Creates chronological, leakage-aware features and keeps targets separate. |
-| 6 | `notebooks/ml/06_ml_dataset_validation.ipynb` | Validates model-ready data and designs a customer-grouped experiment without training. |
-
-All notebooks are in [`notebooks/synthetic_pipeline/`](notebooks/synthetic_pipeline/).
-
-## Data Layout
-
-```text
-data/
-  synthetic/
-    clean/       Valid source tables generated by the project.
-    messy/       Controlled defective copies for data-quality practice.
-    labels/      Separate generator-defined scenario and simulated-abuse labels.
-    manifests/   Defect manifest, generation configuration, and data dictionary.
-  processed/     Outputs created by the preprocessing and feature notebooks.
-archive/
-  kaggle_workflow/  Preserved, retired Kaggle-specific materials. Not active.
-```
-
-### Synthetic Entities
-
-| Entity | Description |
-| --- | --- |
-| `customers.csv` | Fictional Indian customer profiles and signup information. |
-| `products.csv` | Synthetic product catalogue with categories and prices. |
-| `orders.csv` | One transaction per `Order_ID`, linked to customer and product IDs. |
-| `deliveries.csv` | Dispatch, delivery, and delivery-status data for each order. |
-| `returns.csv` | Return status, date, reason, and refund information. |
-| `order_ground_truth.csv` | Generator-defined order scenarios and simulated labels; never feature input. |
-| `defect_manifest.csv` | Record of the intentional defects injected into the messy copy. |
-
-For the complete generated-data dictionary, see [`data/synthetic/manifests/data_dictionary.md`](data/synthetic/manifests/data_dictionary.md).
-
-## Quick Start
-
-### 1. Create a virtual environment
+## Run the presentation app
 
 ```bash
 python -m venv .venv
-```
-
-macOS/Linux:
-
-```bash
-source .venv/bin/activate
-```
-
-Windows PowerShell:
-
-```powershell
-.venv\Scripts\Activate.ps1
-```
-
-### 2. Install dependencies
-
-```bash
-python -m pip install --upgrade pip
+source .venv/bin/activate       # Windows: .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
+streamlit run app.py
 ```
 
-### 3. Select the VS Code kernel
+The app presents the project overview, data-quality evidence, EDA, engineered features, and ML experiment design. It is read-only: it does not train a model or make fraud decisions.
 
-1. Install the **Python** and **Jupyter** extensions in VS Code.
-2. Open `01_synthetic_data_overview.ipynb`.
-3. Select **Kernel** in the notebook toolbar.
-4. Choose the `.venv` Python interpreter from this project.
-5. Run each notebook from top to bottom in the listed order.
+## Notebook order
 
-## Generate the Synthetic Dataset
+| # | Notebook | Focus |
+|---:|---|---|
+| 1 | [01_synthetic_data_overview.ipynb](notebooks/synthetic_pipeline/01_synthetic_data_overview.ipynb) | Entities, schemas, IDs, and synthetic-data limitations |
+| 2 | [02_data_quality_analysis.ipynb](notebooks/synthetic_pipeline/02_data_quality_analysis.ipynb) | Controlled defects in messy data |
+| 3 | [03_exploratory_data_analysis.ipynb](notebooks/synthetic_pipeline/03_exploratory_data_analysis.ipynb) | Customer, order, delivery, and return patterns |
+| 4 | [04_data_preprocessing.ipynb](notebooks/synthetic_pipeline/04_data_preprocessing.ipynb) | Conservative cleaning, flags, joins, and before/after evidence |
+| 5 | [05_feature_engineering_and_model_ready_data.ipynb](notebooks/synthetic_pipeline/05_feature_engineering_and_model_ready_data.ipynb) | Chronological customer-history features |
+| 6 | [06_ml_dataset_validation.ipynb](notebooks/ml/06_ml_dataset_validation.ipynb) | Feature validation and grouped experiment design |
 
-The generated data is already included when the expected CSV files are present. Regenerate it only when the synthetic files are missing or you intentionally want a new dataset.
+In VS Code, install the Python and Jupyter extensions, select the `.venv` interpreter as the notebook kernel, then run the notebooks top to bottom.
 
-```bash
-PYTHONPATH=src python -m synthetic_data.run
+## Project structure
+
+```text
+app.py                         Streamlit presentation application
+notebooks/                     Academic notebook series
+data/synthetic/clean/          Valid generator output
+data/synthetic/messy/          Controlled defective copies
+data/synthetic/labels/         Separate generator-defined labels
+data/synthetic/manifests/      Defect manifest and data dictionary
+data/processed/                Derived cleaned, feature, target, and split files
+reports/                       Audit, validation, and experiment reports
+scripts/                       Reproducible pipeline entry points
+tests/                         Automated validation tests
+archive/kaggle_workflow/       Preserved but inactive legacy material
 ```
 
-Example with explicit settings:
+## Rebuild derived outputs
 
-```bash
-PYTHONPATH=src python -m synthetic_data.run \
-  --customers 3000 \
-  --products 500 \
-  --orders 20000 \
-  --months 12 \
-  --seed 42
-```
-
-The generator creates clean tables, messy copies, ground-truth scenario labels, a defect manifest, and a generation report. It never downloads or reads a Kaggle dataset.
-
-## Outputs
-
-After running the derived-data scripts or notebooks, the project writes:
-
-| Output | Meaning |
-| --- | --- |
-| `data/processed/cleaned_orders.csv` | Consolidated, order-level analytical dataset with quality flags. |
-| `data/processed/preprocessing_*_audit.csv` | Calculated missingness, duplicate, join, and defect audits. |
-| `data/processed/return_level_features.csv` | Features available when a customer submits a return request. |
-| `data/processed/customer_level_features.csv` | One historical summary row per customer. |
-| `data/processed/return_level_targets.csv` | Separate simulated targets aligned by stable order identifiers. |
-| `data/processed/customer_level_targets.csv` | Separate customer scenario targets for analysis. |
-| `data/processed/feature_data_dictionary.csv` | Roles and meanings of feature columns. |
-| `data/processed/return_level_split_assignments.csv` | Reproducible customer-grouped split assignments for a future experiment. |
-| `reports/preprocessing_audit_report.md` | Cleaning decisions and before/after quality measures. |
-| `reports/feature_engineering_report.md` | Prediction point, feature logic, and leakage checks. |
-| `reports/ml_dataset_validation_report.md` | Validated feature-matrix and target diagnostics. |
-| `reports/ml_experiment_design.md` | Leakage-safe evaluation and pipeline plan. |
-
-## Leakage-Aware Feature Policy
-
-The intended future task is return-level simulated suspicious-behaviour assessment. The prediction point is the return request date, before any return completion or investigation outcome is known.
-
-Pre-return features may include order information and historical customer behaviour, but only from earlier orders. The following must not be used as pre-return model inputs:
-
-- `Scenario_Label`
-- `Simulated_Abuse_Indicator`
-- `Return_Date`
-- `Refund_Amount_INR`
-
-Post-return information can be used later for investigation and auditing, but not to score a return before it happens.
-
-## Tests
-
-Run the test suite from the project root:
-
-```bash
-PYTHONPATH=src python -m unittest discover -s tests
-```
-
-The tests cover clean-data validation, foreign-key and chronology rules, defect injection, one-row-per-order preprocessing, chronological feature calculation, and feature-label separation.
-
-## Rebuild Derived Outputs
-
-The raw clean and messy source tables are never overwritten. To rebuild only the generated analytical outputs, run:
+Source tables are preserved. These commands recreate only derived outputs and reports:
 
 ```bash
 PYTHONPATH=src python scripts/run_preprocessing_audit.py
@@ -205,12 +86,38 @@ PYTHONPATH=src python scripts/run_feature_engineering.py
 PYTHONPATH=src python scripts/run_ml_dataset_validation.py
 ```
 
-## Scope and Limitations
+Regenerate the synthetic source data only if you deliberately want a new dataset:
 
-This dataset is simulated. Its patterns are generation assumptions used to support classroom analysis; they are not evidence of real customer behaviour, real fraud rates, or real fraud-detection performance.
+```bash
+PYTHONPATH=src python -m synthetic_data.run
+```
 
-The project currently does not include model training, model evaluation, deployment, dashboards, APIs, or automated alerting. Those belong to later phases after the data workflow has been reviewed.
+## Main outputs
 
-## Archived Workflow
+| Output | Purpose |
+|---|---|
+| `cleaned_orders.csv` | One-row-per-order analytical dataset with quality flags |
+| `return_level_features.csv` | Features available at return-request time |
+| `customer_level_features.csv` | Customer-level historical summary |
+| `return_level_targets.csv` | Separate simulated targets aligned by stable IDs |
+| `return_level_split_assignments.csv` | Reproducible customer-grouped train/validation/test split |
+| `preprocessing_audit_report.md` | Before/after cleaning evidence |
+| `feature_engineering_report.md` | Prediction point and feature logic |
+| `ml_dataset_validation_report.md` | Dataset diagnostics and limitations |
+| `ml_experiment_design.md` | Leakage-safe future modelling plan |
 
-The previous Kaggle-based materials remain available in [`archive/kaggle_workflow/`](archive/kaggle_workflow/) for preservation only. They are deliberately outside the active workflow.
+## Validation
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests
+```
+
+The test suite covers IDs, foreign keys, chronology, controlled defects, duplicate handling, one-row-per-order output, historical feature calculations, target separation, and grouped splitting.
+
+## Important limitations
+
+- All data, labels, and patterns are generated assumptions for classroom use.
+- Scenario labels stay outside feature inputs.
+- Historical features use only information available before each return request.
+- No model is trained, evaluated, deployed, or used to label real customers.
+- The archived Kaggle workflow is preserved only for reference and is not part of the active project.
