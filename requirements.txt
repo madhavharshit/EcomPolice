@@ -6,3 +6,5 @@ seaborn
 jupyter
 nbformat
 nbclient
+scikit-learn
+streamlit

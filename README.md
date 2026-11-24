@@ -2,7 +2,7 @@
 
 EcomPolice is a synthetic-data analytics project that studies e-commerce order and return behaviour. It is designed as a reproducible academic workflow for demonstrating data understanding, data quality analysis, exploratory data analysis, preprocessing, and leakage-aware feature preparation.
 
-The active project uses only generated synthetic data. It does not use the retired Kaggle workflow, train a model, predict fraud, or classify every return as abuse.
+The active project uses only generated synthetic data. It does not use the retired Kaggle workflow, train a model, predict fraud, or classify every return as abuse. A local Streamlit application makes the completed workflow easy to demonstrate to a teacher.
 
 ## Project Goals
 
@@ -36,6 +36,24 @@ Synthetic generator
                                                    Processed outputs for a future model
 ```
 
+## Teacher Demonstration Application
+
+After installing requirements and generating the derived outputs, start the local application from the project root:
+
+```bash
+streamlit run app.py
+```
+
+It opens a presentation-ready walkthrough with five sections:
+
+- Project overview and entity relationships.
+- Controlled defects, before/after preprocessing evidence, and join integrity.
+- Descriptive synthetic-data exploration.
+- Leakage-aware return-level features and separate simulated targets.
+- Customer-grouped train/validation/test experiment design.
+
+The application is intentionally read-only: it does not train a model, predict abuse, edit source data, or expose archived Kaggle files.
+
 ## Notebook Series
 
 Run these notebooks in sequence:
@@ -47,6 +65,7 @@ Run these notebooks in sequence:
 | 3 | `03_exploratory_data_analysis.ipynb` | Studies generated order, delivery, return, customer, and scenario patterns. |
 | 4 | `04_data_preprocessing.ipynb` | Cleans and flags messy data, then creates one consolidated row per order. |
 | 5 | `05_feature_engineering_and_model_ready_data.ipynb` | Creates chronological, leakage-aware features and keeps targets separate. |
+| 6 | `notebooks/ml/06_ml_dataset_validation.ipynb` | Validates model-ready data and designs a customer-grouped experiment without training. |
 
 All notebooks are in [`notebooks/synthetic_pipeline/`](notebooks/synthetic_pipeline/).
 
@@ -136,28 +155,32 @@ The generator creates clean tables, messy copies, ground-truth scenario labels, 
 
 ## Outputs
 
-After running notebooks 4 and 5, the project writes:
+After running the derived-data scripts or notebooks, the project writes:
 
 | Output | Meaning |
 | --- | --- |
 | `data/processed/cleaned_orders.csv` | Consolidated, order-level analytical dataset with quality flags. |
-| `data/processed/pre_return_features.csv` | Features available before the current return outcome. |
-| `data/processed/model_targets.csv` | Separate simulated labels aligned by stable order identifiers. |
+| `data/processed/preprocessing_*_audit.csv` | Calculated missingness, duplicate, join, and defect audits. |
+| `data/processed/return_level_features.csv` | Features available when a customer submits a return request. |
+| `data/processed/customer_level_features.csv` | One historical summary row per customer. |
+| `data/processed/return_level_targets.csv` | Separate simulated targets aligned by stable order identifiers. |
+| `data/processed/customer_level_targets.csv` | Separate customer scenario targets for analysis. |
 | `data/processed/feature_data_dictionary.csv` | Roles and meanings of feature columns. |
-| `reports/preprocessing_report.md` | Cleaning decisions and before/after quality measures. |
+| `data/processed/return_level_split_assignments.csv` | Reproducible customer-grouped split assignments for a future experiment. |
+| `reports/preprocessing_audit_report.md` | Cleaning decisions and before/after quality measures. |
 | `reports/feature_engineering_report.md` | Prediction point, feature logic, and leakage checks. |
+| `reports/ml_dataset_validation_report.md` | Validated feature-matrix and target diagnostics. |
+| `reports/ml_experiment_design.md` | Leakage-safe evaluation and pipeline plan. |
 
 ## Leakage-Aware Feature Policy
 
-The intended future task is return-level simulated abuse detection. The prediction point is the order date, before the current return outcome is known.
+The intended future task is return-level simulated suspicious-behaviour assessment. The prediction point is the return request date, before any return completion or investigation outcome is known.
 
 Pre-return features may include order information and historical customer behaviour, but only from earlier orders. The following must not be used as pre-return model inputs:
 
 - `Scenario_Label`
 - `Simulated_Abuse_Indicator`
-- `Return_Status`
 - `Return_Date`
-- `Return_Reason`
 - `Refund_Amount_INR`
 
 Post-return information can be used later for investigation and auditing, but not to score a return before it happens.
@@ -171,6 +194,16 @@ PYTHONPATH=src python -m unittest discover -s tests
 ```
 
 The tests cover clean-data validation, foreign-key and chronology rules, defect injection, one-row-per-order preprocessing, chronological feature calculation, and feature-label separation.
+
+## Rebuild Derived Outputs
+
+The raw clean and messy source tables are never overwritten. To rebuild only the generated analytical outputs, run:
+
+```bash
+PYTHONPATH=src python scripts/run_preprocessing_audit.py
+PYTHONPATH=src python scripts/run_feature_engineering.py
+PYTHONPATH=src python scripts/run_ml_dataset_validation.py
+```
 
 ## Scope and Limitations
 

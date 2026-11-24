@@ -9,7 +9,15 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from synthetic_data.build_features import build_order_level_table, build_pre_return_features
+from synthetic_data.build_features import (
+    build_customer_level_features,
+    build_customer_level_targets,
+    build_order_level_table,
+    build_pre_return_features,
+    build_return_level_features,
+    build_return_level_targets,
+    validate_feature_outputs,
+)
 from synthetic_data.config import DefectRates, SyntheticConfig
 from synthetic_data.generate_customers import generate_customers
 from synthetic_data.generate_orders import generate_deliveries, generate_orders
@@ -17,11 +25,19 @@ from synthetic_data.generate_products import generate_products
 from synthetic_data.generate_returns import generate_returns
 from synthetic_data.generate_scenarios import assign_customer_scenarios
 from synthetic_data.inject_defects import inject_defects
-from synthetic_data.preprocessing import SyntheticTables, build_clean_order_dataset, build_model_targets, preprocess_messy_tables
+from synthetic_data.preprocessing import (
+    SyntheticTables,
+    build_clean_order_dataset,
+    build_model_targets,
+    missing_value_audit,
+    preprocess_messy_tables,
+)
 from synthetic_data.run import generate
 from synthetic_data.validate import validate_clean_dataset, validate_feature_dataset
 
 import numpy as np
+
+from scripts.run_ml_dataset_validation import build_grouped_split, validate_grouped_split
 
 
 def make_small_dataset(seed: int = 123):
@@ -170,6 +186,107 @@ class SyntheticDataTests(unittest.TestCase):
         self.assertEqual(len(targets), len(features))
         self.assertTrue(set(targets["Order_ID"]).issubset(set(features["Order_ID"])))
         self.assertFalse({"Scenario_Label", "Simulated_Abuse_Indicator"}.intersection(features.columns))
+
+    def test_missing_identifiers_remain_flagged_and_create_unmatched_joins(self) -> None:
+        _, customers, products, orders, deliveries, returns, _, _, _ = make_small_dataset()
+        orders.loc[0, "Customer_ID"] = ""
+        orders.loc[1, "Product_ID"] = ""
+
+        cleaned, _ = preprocess_messy_tables(SyntheticTables(customers, products, orders, deliveries, returns))
+        final = build_clean_order_dataset(cleaned)
+
+        self.assertEqual(int(final["Invalid_Identifier_Flag"].sum()), 2)
+        self.assertEqual(int(final["Unmatched_Customer_Flag"].sum()), 1)
+        self.assertEqual(int(final["Unmatched_Product_Flag"].sum()), 1)
+        self.assertTrue(final.loc[final["Unmatched_Customer_Flag"], "Full_Name"].isna().all())
+        self.assertTrue(final.loc[final["Unmatched_Product_Flag"], "Category"].isna().all())
+
+    def test_join_rejects_duplicate_reference_keys(self) -> None:
+        _, customers, products, orders, deliveries, returns, _, _, _ = make_small_dataset()
+        duplicate_products = pd.concat([products, products.iloc[[0]]], ignore_index=True)
+        cleaned, _ = preprocess_messy_tables(SyntheticTables(customers, duplicate_products, orders, deliveries, returns))
+
+        with self.assertRaisesRegex(ValueError, "reference keys must be unique"):
+            build_clean_order_dataset(cleaned)
+
+    def test_return_blanks_for_not_returned_orders_are_structural(self) -> None:
+        _, customers, products, orders, deliveries, returns, _, _, _ = make_small_dataset()
+        cleaned, _ = preprocess_messy_tables(SyntheticTables(customers, products, orders, deliveries, returns))
+        final = build_clean_order_dataset(cleaned)
+        not_returned = final[final["Return_Status"].eq("Not Returned")]
+
+        self.assertTrue(not_returned["Return_Date"].isna().all())
+        self.assertTrue(not_returned["Return_Reason"].isna().all())
+        self.assertTrue(not_returned["Refund_Amount_INR"].isna().all())
+
+    def test_missing_value_audit_matches_final_dataset(self) -> None:
+        _, customers, products, orders, deliveries, returns, _, _, _ = make_small_dataset()
+        orders.loc[0, "Customer_ID"] = ""
+        cleaned, _ = preprocess_messy_tables(SyntheticTables(customers, products, orders, deliveries, returns))
+        final = build_clean_order_dataset(cleaned)
+        audit = missing_value_audit(orders, cleaned.orders, final).set_index("column")
+
+        self.assertEqual(audit.loc["Customer_ID", "final_missing_count"], int(final["Customer_ID"].isna().sum()))
+        self.assertTrue(pd.isna(audit.loc["Full_Name", "cleaned_orders_missing_count"]))
+
+    def test_return_level_features_are_chronological_and_separate_from_targets(self) -> None:
+        _, customers, products, orders, deliveries, returns, customer_labels, order_labels, _ = make_small_dataset()
+        order_table = build_order_level_table(customers, products, orders, deliveries, returns)
+        return_features = build_return_level_features(order_table)
+        customer_features = build_customer_level_features(order_table, customer_ids=customers["Customer_ID"])
+        return_targets = build_return_level_targets(order_labels, return_features)
+        customer_targets = build_customer_level_targets(customer_labels, customer_features)
+        validation = validate_feature_outputs(
+            order_table, return_features, return_targets, customer_features, customer_targets
+        )
+
+        self.assertTrue(validation["return_features_one_row_per_return"])
+        self.assertTrue(validation["customer_features_one_row_per_customer"])
+        self.assertTrue(validation["no_target_columns_in_return_features"])
+        self.assertTrue(validation["return_feature_target_alignment"])
+        self.assertTrue(validation["customer_feature_target_alignment"])
+        self.assertEqual(validation["chronological_feature_violations"], 0)
+
+    def test_customer_with_no_orders_has_zero_history(self) -> None:
+        _, customers, products, orders, deliveries, returns, _, _, _ = make_small_dataset()
+        order_table = build_order_level_table(customers, products, orders, deliveries, returns)
+        customer_ids = pd.concat([customers["Customer_ID"], pd.Series(["CUST_NO_ORDERS"])], ignore_index=True)
+        features = build_customer_level_features(order_table, customer_ids=customer_ids)
+        no_order_row = features.loc[features["Customer_ID"].eq("CUST_NO_ORDERS")].iloc[0]
+
+        self.assertEqual(no_order_row["Prior_Order_Count"], 0)
+        self.assertEqual(no_order_row["Prior_Return_Count"], 0)
+        self.assertEqual(no_order_row["Historical_Return_Rate"], 0)
+        self.assertEqual(no_order_row["Has_Prior_Return_History"], 0)
+
+    def test_return_level_feature_build_is_reproducible(self) -> None:
+        _, customers, products, orders, deliveries, returns, _, _, _ = make_small_dataset(seed=987)
+        order_table = build_order_level_table(customers, products, orders, deliveries, returns)
+
+        first = build_return_level_features(order_table)
+        second = build_return_level_features(order_table)
+
+        pd.testing.assert_frame_equal(first, second)
+
+    def test_grouped_split_keeps_customers_in_one_partition(self) -> None:
+        rows = []
+        for customer_number in range(10):
+            target = customer_number % 2
+            for return_number in range(2):
+                rows.append(
+                    {
+                        "Order_ID": f"ORD{customer_number:02d}{return_number}",
+                        "Customer_ID": f"CUST{customer_number:02d}",
+                        "Simulated_Abuse_Target": target,
+                    }
+                )
+        dataset = pd.DataFrame(rows)
+        assignments, _ = build_grouped_split(dataset)
+        validation = validate_grouped_split(assignments)
+
+        self.assertTrue(validation["all_customers_in_one_partition"])
+        self.assertEqual(validation["customers_shared_across_partitions"], 0)
+        self.assertTrue(validation["both_target_classes_in_each_partition"])
 
 
 if __name__ == "__main__":
